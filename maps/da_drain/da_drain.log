@@ -185,3 +185,2825 @@ Level flags = 0
 Total triangle count: 11538
 Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
 13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 762 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (121383 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 517 texinfos to 416
+Reduced 14 texdatas to 12 (383 bytes to 291)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4197 faces
+779937 square feet [112311032.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0603 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                325/8192         3900/98304    ( 4.0%) 
+brushsides            2306/65536       18448/524288   ( 3.5%) 
+planes                1558/65536       31160/1310720  ( 2.4%) 
+vertexes              6079/65536       72948/786432   ( 9.3%) 
+nodes                  220/65536        7040/2097152  ( 0.3%) 
+texinfos               416/12288       29952/884736   ( 3.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4197/65536      235032/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1324/65536       74144/3670016  ( 2.0%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces             5155/65536       10310/131072   ( 7.9%) 
+leafbrushes            526/65536        1052/131072   ( 0.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            25224/512000     100896/2048000  ( 4.9%) 
+edges                14075/256000      56300/1024000  ( 5.5%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            576/32768        5760/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8505/65536       17010/131072   (13.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10802000/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        3498/393216   ( 0.9%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient      1199/65536       33572/1835008  ( 1.8%) 
+HDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5464     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      121383/4194304  ( 2.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11538
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 774 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (125479 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 538 texinfos to 423
+Reduced 16 texdatas to 14 (425 bytes to 333)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4259 faces
+780740 square feet [112426680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0627 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                340/8192         4080/98304    ( 4.2%) 
+brushsides            2396/65536       19168/524288   ( 3.7%) 
+planes                1566/65536       31320/1310720  ( 2.4%) 
+vertexes              6193/65536       74316/786432   ( 9.4%) 
+nodes                  245/65536        7840/2097152  ( 0.4%) 
+texinfos               423/12288       30456/884736   ( 3.4%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4259/65536      238504/3670016  ( 6.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1356/65536       75936/3670016  ( 2.1%) 
+leaves                 248/65536        7936/2097152  ( 0.4%) 
+leaffaces             5446/65536       10892/131072   ( 8.3%) 
+leafbrushes            585/65536        1170/131072   ( 0.9%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            25698/512000     102792/2048000  ( 5.0%) 
+edges                14408/256000      57632/1024000  ( 5.6%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            585/32768        5850/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8646/65536       17292/131072   (13.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10818072/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        3928/393216   ( 1.0%) 
+LDR ambient table      248/65536         992/262144   ( 0.4%) 
+HDR ambient table      248/65536         992/262144   ( 0.4%) 
+LDR leaf ambient      1304/65536       36512/1835008  ( 2.0%) 
+HDR leaf ambient       248/65536        6944/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5464     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      125479/4194304  ( 3.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11760
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 786 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (130159 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 577 texinfos to 444
+Reduced 18 texdatas to 16 (507 bytes to 415)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4300 faces
+784199 square feet [112924720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0633 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                353/8192         4236/98304    ( 4.3%) 
+brushsides            2475/65536       19800/524288   ( 3.8%) 
+planes                1616/65536       32320/1310720  ( 2.5%) 
+vertexes              6262/65536       75144/786432   ( 9.6%) 
+nodes                  245/65536        7840/2097152  ( 0.4%) 
+texinfos               444/12288       31968/884736   ( 3.6%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4300/65536      240800/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1397/65536       78232/3670016  ( 2.1%) 
+leaves                 248/65536        7936/2097152  ( 0.4%) 
+leaffaces             5502/65536       11004/131072   ( 8.4%) 
+leafbrushes            604/65536        1208/131072   ( 0.9%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            26073/512000     104292/2048000  ( 5.1%) 
+edges                14655/256000      58620/1024000  ( 5.7%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            589/32768        5890/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8712/65536       17424/131072   (13.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10975772/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4255/393216   ( 1.1%) 
+LDR ambient table      248/65536         992/262144   ( 0.4%) 
+HDR ambient table      248/65536         992/262144   ( 0.4%) 
+LDR leaf ambient      1296/65536       36288/1835008  ( 2.0%) 
+HDR leaf ambient       248/65536        6944/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6116     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      130159/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11889
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 786 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (129863 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 577 texinfos to 444
+Reduced 18 texdatas to 16 (507 bytes to 415)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4300 faces
+784199 square feet [112924720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0617 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                352/8192         4224/98304    ( 4.3%) 
+brushsides            2468/65536       19744/524288   ( 3.8%) 
+planes                1610/65536       32200/1310720  ( 2.5%) 
+vertexes              6262/65536       75144/786432   ( 9.6%) 
+nodes                  245/65536        7840/2097152  ( 0.4%) 
+texinfos               444/12288       31968/884736   ( 3.6%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4300/65536      240800/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1397/65536       78232/3670016  ( 2.1%) 
+leaves                 248/65536        7936/2097152  ( 0.4%) 
+leaffaces             5502/65536       11004/131072   ( 8.4%) 
+leafbrushes            602/65536        1204/131072   ( 0.9%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            26073/512000     104292/2048000  ( 5.1%) 
+edges                14655/256000      58620/1024000  ( 5.7%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            589/32768        5890/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8712/65536       17424/131072   (13.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10975772/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4254/393216   ( 1.1%) 
+LDR ambient table      248/65536         992/262144   ( 0.4%) 
+HDR ambient table      248/65536         992/262144   ( 0.4%) 
+LDR leaf ambient      1296/65536       36288/1835008  ( 2.0%) 
+HDR leaf ambient       248/65536        6944/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6116     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      129863/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11889
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-75.90 -128.00 -501.11) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2984.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2440.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2984.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 788 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (133178 bytes)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-75.96, 64.00, -501.05)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (-62.84, 64.00, -509.27)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-76.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-76.00, -128.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_1.mdl outside the map (-78.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (-96.00, -107.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -107.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (-96.00, -72.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, -69.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -69.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (-96.00, -34.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (-96.00, -31.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -31.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-96.00, 4.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, 6.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, 6.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, 41.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, 43.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-96.00, 43.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_2.mdl outside the map (-96.00, 46.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-76.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-76.00, 64.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (-62.79, -128.00, -509.33)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-75.90, -128.00, -501.11)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (76.00, 64.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_1.mdl outside the map (78.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (96.00, 43.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, 43.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (96.00, 8.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, 5.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, 5.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (96.00, -30.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (96.00, -33.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -33.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (96.00, -68.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -70.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, -70.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, -105.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -107.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (96.00, -107.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_2.mdl outside the map (96.00, -110.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (76.00, -128.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, 64.00, -501.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_2.mdl outside the map (62.89, 64.00, -509.22)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_2.mdl outside the map (62.89, -128.00, -509.23)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, -128.00, -501.01)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (34.36, 399.46, -160.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.36, 399.46, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (34.36, 416.46, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.42, 381.26, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (34.42, 368.10, -149.27)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (34.42, 381.26, -160.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.42, 381.21, -141.05)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 622 texinfos to 472
+Reduced 18 texdatas to 16 (514 bytes to 422)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4256 faces
+737451 square feet [106192968.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0573 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                363/8192         4356/98304    ( 4.4%) 
+brushsides            2541/65536       20328/524288   ( 3.9%) 
+planes                1664/65536       33280/1310720  ( 2.5%) 
+vertexes              6203/65536       74436/786432   ( 9.5%) 
+nodes                  224/65536        7168/2097152  ( 0.3%) 
+texinfos               472/12288       33984/884736   ( 3.8%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4256/65536      238336/3670016  ( 6.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1428/65536       79968/3670016  ( 2.2%) 
+leaves                 226/65536        7232/2097152  ( 0.3%) 
+leaffaces             5537/65536       11074/131072   ( 8.4%) 
+leafbrushes            600/65536        1200/131072   ( 0.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            25993/512000     103972/2048000  ( 5.1%) 
+edges                14615/256000      58460/1024000  ( 5.7%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            587/32768        5870/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8724/65536       17448/131072   (13.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10730060/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4075/393216   ( 1.0%) 
+LDR ambient table      226/65536         904/262144   ( 0.3%) 
+HDR ambient table      226/65536         904/262144   ( 0.3%) 
+LDR leaf ambient      1158/65536       32424/1835008  ( 1.8%) 
+HDR leaf ambient       226/65536        6328/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1834     ( 0.1%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      133178/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11777
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-75.90 -128.00 -501.11) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2984.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2440.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2984.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 788 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (132882 bytes)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-75.96, 64.00, -501.05)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (-62.84, 64.00, -509.27)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-76.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-76.00, -128.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_1.mdl outside the map (-78.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (-96.00, -107.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -107.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (-96.00, -72.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, -69.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -69.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (-96.00, -34.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (-96.00, -31.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -31.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-96.00, 4.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, 6.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, 6.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, 41.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, 43.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-96.00, 43.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_2.mdl outside the map (-96.00, 46.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-76.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-76.00, 64.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (-62.79, -128.00, -509.33)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-75.90, -128.00, -501.11)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (76.00, 64.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_1.mdl outside the map (78.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (96.00, 43.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, 43.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (96.00, 8.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, 5.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, 5.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (96.00, -30.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (96.00, -33.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -33.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (96.00, -68.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -70.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, -70.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, -105.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -107.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (96.00, -107.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_2.mdl outside the map (96.00, -110.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (76.00, -128.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, 64.00, -501.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_2.mdl outside the map (62.89, 64.00, -509.22)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_2.mdl outside the map (62.89, -128.00, -509.23)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, -128.00, -501.01)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (34.36, 399.46, -160.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.36, 399.46, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (34.36, 416.46, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.42, 381.26, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (34.42, 368.10, -149.27)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (34.42, 381.26, -160.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.42, 381.21, -141.05)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 622 texinfos to 472
+Reduced 18 texdatas to 16 (514 bytes to 422)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4256 faces
+737451 square feet [106192968.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0589 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                362/8192         4344/98304    ( 4.4%) 
+brushsides            2534/65536       20272/524288   ( 3.9%) 
+planes                1658/65536       33160/1310720  ( 2.5%) 
+vertexes              6203/65536       74436/786432   ( 9.5%) 
+nodes                  224/65536        7168/2097152  ( 0.3%) 
+texinfos               472/12288       33984/884736   ( 3.8%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4256/65536      238336/3670016  ( 6.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1428/65536       79968/3670016  ( 2.2%) 
+leaves                 226/65536        7232/2097152  ( 0.3%) 
+leaffaces             5537/65536       11074/131072   ( 8.4%) 
+leafbrushes            598/65536        1196/131072   ( 0.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            25993/512000     103972/2048000  ( 5.1%) 
+edges                14615/256000      58460/1024000  ( 5.7%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            587/32768        5870/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8724/65536       17448/131072   (13.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10730060/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4083/393216   ( 1.0%) 
+LDR ambient table      226/65536         904/262144   ( 0.3%) 
+HDR ambient table      226/65536         904/262144   ( 0.3%) 
+LDR leaf ambient      1158/65536       32424/1835008  ( 1.8%) 
+HDR leaf ambient       226/65536        6328/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1834     ( 0.1%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      132882/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11777
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-75.90 -128.00 -501.11) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2984.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2440.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2984.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 786 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (134287 bytes)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-75.96, 64.00, -501.05)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (-62.84, 64.00, -509.27)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-76.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-76.00, -128.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_1.mdl outside the map (-78.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (-96.00, -107.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -107.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (-96.00, -72.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, -69.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -69.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (-96.00, -34.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (-96.00, -31.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -31.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-96.00, 4.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, 6.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, 6.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, 41.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, 43.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-96.00, 43.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_2.mdl outside the map (-96.00, 46.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-76.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-76.00, 64.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (-62.79, -128.00, -509.33)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-75.90, -128.00, -501.11)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (76.00, 64.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_1.mdl outside the map (78.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (96.00, 43.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, 43.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (96.00, 8.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, 5.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, 5.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (96.00, -30.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (96.00, -33.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -33.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (96.00, -68.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -70.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, -70.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, -105.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, -107.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (96.00, -107.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_2.mdl outside the map (96.00, -110.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (76.00, -128.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, 64.00, -501.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_2.mdl outside the map (62.89, 64.00, -509.22)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_2.mdl outside the map (62.89, -128.00, -509.23)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, -128.00, -501.01)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (34.36, 399.46, -160.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.36, 399.46, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (34.36, 416.46, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.42, 381.26, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (34.42, 368.10, -149.27)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (34.42, 381.26, -160.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.42, 381.21, -141.05)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 627 texinfos to 475
+Reduced 19 texdatas to 17 (533 bytes to 441)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4293 faces
+767450 square feet [110512896.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0594 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                365/8192         4380/98304    ( 4.5%) 
+brushsides            2557/65536       20456/524288   ( 3.9%) 
+planes                1680/65536       33600/1310720  ( 2.6%) 
+vertexes              6274/65536       75288/786432   ( 9.6%) 
+nodes                  230/65536        7360/2097152  ( 0.4%) 
+texinfos               475/12288       34200/884736   ( 3.9%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4293/65536      240408/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1435/65536       80360/3670016  ( 2.2%) 
+leaves                 233/65536        7456/2097152  ( 0.4%) 
+leaffaces             5614/65536       11228/131072   ( 8.6%) 
+leafbrushes            615/65536        1230/131072   ( 0.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            26231/512000     104924/2048000  ( 5.1%) 
+edges                14745/256000      58980/1024000  ( 5.8%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            600/32768        6000/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8880/65536       17760/131072   (13.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10826172/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4262/393216   ( 1.1%) 
+LDR ambient table      233/65536         932/262144   ( 0.4%) 
+HDR ambient table      233/65536         932/262144   ( 0.4%) 
+LDR leaf ambient      1221/65536       34188/1835008  ( 1.9%) 
+HDR leaf ambient       233/65536        6524/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1834     ( 0.1%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      134287/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11909
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 788 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (133506 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 622 texinfos to 472
+Reduced 18 texdatas to 16 (514 bytes to 422)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4299 faces
+754332 square feet [108623944.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0623 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                364/8192         4368/98304    ( 4.4%) 
+brushsides            2547/65536       20376/524288   ( 3.9%) 
+planes                1666/65536       33320/1310720  ( 2.5%) 
+vertexes              6243/65536       74916/786432   ( 9.5%) 
+nodes                  239/65536        7648/2097152  ( 0.4%) 
+texinfos               472/12288       33984/884736   ( 3.8%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4299/65536      240744/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1426/65536       79856/3670016  ( 2.2%) 
+leaves                 241/65536        7712/2097152  ( 0.4%) 
+leaffaces             5488/65536       10976/131072   ( 8.4%) 
+leafbrushes            611/65536        1222/131072   ( 0.9%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            26125/512000     104500/2048000  ( 5.1%) 
+edges                14687/256000      58748/1024000  ( 5.7%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            576/32768        5760/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8556/65536       17112/131072   (13.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10895484/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4083/393216   ( 1.0%) 
+LDR ambient table      241/65536         964/262144   ( 0.4%) 
+HDR ambient table      241/65536         964/262144   ( 0.4%) 
+LDR leaf ambient      1232/65536       34496/1835008  ( 1.9%) 
+HDR leaf ambient       241/65536        6748/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6116     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      133506/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11831
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (192.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (704.0 1024.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 1536.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 376.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 788 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (133506 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 622 texinfos to 472
+Reduced 18 texdatas to 16 (514 bytes to 422)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+4299 faces
+754332 square feet [108623944.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0595 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                364/8192         4368/98304    ( 4.4%) 
+brushsides            2547/65536       20376/524288   ( 3.9%) 
+planes                1666/65536       33320/1310720  ( 2.5%) 
+vertexes              6243/65536       74916/786432   ( 9.5%) 
+nodes                  239/65536        7648/2097152  ( 0.4%) 
+texinfos               472/12288       33984/884736   ( 3.8%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4299/65536      240744/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1426/65536       79856/3670016  ( 2.2%) 
+leaves                 241/65536        7712/2097152  ( 0.4%) 
+leaffaces             5488/65536       10976/131072   ( 8.4%) 
+leafbrushes            611/65536        1222/131072   ( 0.9%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            26125/512000     104500/2048000  ( 5.1%) 
+edges                14687/256000      58748/1024000  ( 5.7%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            576/32768        5760/327680   ( 1.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8556/65536       17112/131072   (13.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10895484/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4083/393216   ( 1.0%) 
+LDR ambient table      241/65536         964/262144   ( 0.4%) 
+HDR ambient table      241/65536         964/262144   ( 0.4%) 
+LDR leaf ambient      1232/65536       34496/1835008  ( 1.9%) 
+HDR leaf ambient       241/65536        6748/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6116     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      133506/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11831
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-75.90 -128.00 -501.11) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3712.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3200.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 4096.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 4096.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 3584.0 -2440.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 2560.0 -2440.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2984.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 568.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 788 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (144002 bytes)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-75.96, 64.00, -501.05)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (-62.84, 64.00, -509.27)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-76.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-76.00, -128.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_1.mdl outside the map (-78.00, -128.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (-96.00, -107.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -107.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (-96.00, -72.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, -69.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -69.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (-96.00, -34.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (-96.00, -31.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, -31.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-96.00, 4.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, 6.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, 6.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (-96.00, 41.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-96.00, 43.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-96.00, 43.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_2.mdl outside the map (-96.00, 46.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-76.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (-76.00, 64.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (-62.79, -128.00, -509.33)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (-75.90, -128.00, -501.11)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (76.00, 64.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/corner_1.mdl outside the map (78.00, 64.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_4.mdl outside the map (96.00, 43.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, 43.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_3.mdl outside the map (96.00, 8.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (96.00, 5.00, -520.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (96.00, 5.00, -486.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (76.00, 64.00, -501.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_2.mdl outside the map (62.89, 64.00, -509.22)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (34.36, 399.46, -160.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.36, 399.46, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_1.mdl outside the map (34.36, 416.46, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.42, 381.26, -126.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/curl_1.mdl outside the map (34.42, 368.10, -149.27)
+Static prop models/stormy/da_doubletrouble/modular_railings/straight_2.mdl outside the map (34.42, 381.26, -160.00)
+Static prop models/stormy/da_doubletrouble/modular_railings/tpiece.mdl outside the map (34.42, 381.21, -141.05)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 683 texinfos to 507
+Reduced 20 texdatas to 18 (575 bytes to 483)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+5356 faces
+1011836 square feet [145704512.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0821 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                394/8192         4728/98304    ( 4.8%) 
+brushsides            2732/65536       21856/524288   ( 4.2%) 
+planes                1740/65536       34800/1310720  ( 2.7%) 
+vertexes              7525/65536       90300/786432   (11.5%) 
+nodes                  462/65536       14784/2097152  ( 0.7%) 
+texinfos               507/12288       36504/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5356/65536      299936/3670016  ( 8.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1538/65536       86128/3670016  ( 2.3%) 
+leaves                 464/65536       14848/2097152  ( 0.7%) 
+leaffaces             6727/65536       13454/131072   (10.3%) 
+leafbrushes            718/65536        1436/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            31143/512000     124572/2048000  ( 6.1%) 
+edges                17335/256000      69340/1024000  ( 6.8%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            614/32768        6140/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9066/65536       18132/131072   (13.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    21907496/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4743/393216   ( 1.2%) 
+LDR ambient table      464/65536        1856/262144   ( 0.7%) 
+HDR ambient table      464/65536        1856/262144   ( 0.7%) 
+LDR leaf ambient      2858/65536       80024/1835008  ( 4.4%) 
+HDR leaf ambient       464/65536       12992/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3278     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      144002/4194304  ( 3.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14287
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+19 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3712.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3200.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 4096.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 4096.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 3584.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 2560.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 568.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (30477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 147 texinfos to 74
+Reduced 9 texdatas to 8 (248 bytes to 198)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+2694 faces
+735722 square feet [105944016.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0499 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 88/8192         1056/98304    ( 1.1%) 
+brushsides             560/65536        4480/524288   ( 0.9%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              3291/65536       39492/786432   ( 5.0%) 
+nodes                  462/65536       14784/2097152  ( 0.7%) 
+texinfos                74/12288        5328/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2694/65536      150864/3670016  ( 4.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              230/65536       12880/3670016  ( 0.4%) 
+leaves                 464/65536       14848/2097152  ( 0.7%) 
+leaffaces             2942/65536        5884/131072   ( 4.5%) 
+leafbrushes            213/65536         426/131072   ( 0.3%) 
+areas                    1/256             8/2048     ( 0.4%) 
+surfedges            12733/512000      50932/2048000  ( 2.5%) 
+edges                 6561/256000      26244/1024000  ( 2.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             79/32768         790/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1020/65536        2040/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    17835640/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         243/393216   ( 0.1%) 
+LDR ambient table      464/65536        1856/262144   ( 0.7%) 
+HDR ambient table      464/65536        1856/262144   ( 0.7%) 
+LDR leaf ambient       267/65536        7476/1835008  ( 0.4%) 
+HDR leaf ambient       464/65536       12992/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211573/0        ( 0.0%) 
+physics               [variable]       30477/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6425
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3712.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3200.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 4096.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 4096.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 3584.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 2560.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 568.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 786 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (145439 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 688 texinfos to 510
+Reduced 21 texdatas to 19 (594 bytes to 502)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+5455 faces
+1058718 square feet [152455472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0853 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                397/8192         4764/98304    ( 4.8%) 
+brushsides            2754/65536       22032/524288   ( 4.2%) 
+planes                1758/65536       35160/1310720  ( 2.7%) 
+vertexes              7663/65536       91956/786432   (11.7%) 
+nodes                  478/65536       15296/2097152  ( 0.7%) 
+texinfos               510/12288       36720/884736   ( 4.2%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5455/65536      305480/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1542/65536       86352/3670016  ( 2.4%) 
+leaves                 481/65536       15392/2097152  ( 0.7%) 
+leaffaces             6749/65536       13498/131072   (10.3%) 
+leafbrushes            734/65536        1468/131072   ( 1.1%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            31601/512000     126404/2048000  ( 6.2%) 
+edges                17579/256000      70316/1024000  ( 6.9%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            617/32768        6170/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9066/65536       18132/131072   (13.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    22171464/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4922/393216   ( 1.3%) 
+LDR ambient table      481/65536        1924/262144   ( 0.7%) 
+HDR ambient table      481/65536        1924/262144   ( 0.7%) 
+LDR leaf ambient      2980/65536       83440/1835008  ( 4.5%) 
+HDR leaf ambient       481/65536       13468/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6116     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      145439/4194304  ( 3.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14527
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+17 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3712.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3200.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 4096.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 4096.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 3584.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 2560.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 568.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 786 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (145439 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 688 texinfos to 510
+Reduced 21 texdatas to 19 (594 bytes to 502)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+5455 faces
+1058718 square feet [152455472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0834 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                397/8192         4764/98304    ( 4.8%) 
+brushsides            2754/65536       22032/524288   ( 4.2%) 
+planes                1758/65536       35160/1310720  ( 2.7%) 
+vertexes              7663/65536       91956/786432   (11.7%) 
+nodes                  478/65536       15296/2097152  ( 0.7%) 
+texinfos               510/12288       36720/884736   ( 4.2%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5455/65536      305480/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1542/65536       86352/3670016  ( 2.4%) 
+leaves                 481/65536       15392/2097152  ( 0.7%) 
+leaffaces             6749/65536       13498/131072   (10.3%) 
+leafbrushes            734/65536        1468/131072   ( 1.1%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            31601/512000     126404/2048000  ( 6.2%) 
+edges                17579/256000      70316/1024000  ( 6.9%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            617/32768        6170/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9066/65536       18132/131072   (13.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    22171464/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4922/393216   ( 1.3%) 
+LDR ambient table      481/65536        1924/262144   ( 0.7%) 
+HDR ambient table      481/65536        1924/262144   ( 0.7%) 
+LDR leaf ambient      2980/65536       83440/1835008  ( 4.5%) 
+HDR leaf ambient       481/65536       13468/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6116     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      145439/4194304  ( 3.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14527
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (0.00 224.00 656.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3712.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 3200.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 4096.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 4096.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 3584.0 -2448.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 2560.0 -2448.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 -2992.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 568.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 786 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (145439 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 688 texinfos to 510
+Reduced 21 texdatas to 19 (594 bytes to 502)
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+reading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+No vis information, direct lighting only.
+5455 faces
+1058718 square feet [152455472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0796 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                397/8192         4764/98304    ( 4.8%) 
+brushsides            2754/65536       22032/524288   ( 4.2%) 
+planes                1758/65536       35160/1310720  ( 2.7%) 
+vertexes              7663/65536       91956/786432   (11.7%) 
+nodes                  478/65536       15296/2097152  ( 0.7%) 
+texinfos               510/12288       36720/884736   ( 4.2%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5455/65536      305480/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1542/65536       86352/3670016  ( 2.4%) 
+leaves                 481/65536       15392/2097152  ( 0.7%) 
+leaffaces             6749/65536       13498/131072   (10.3%) 
+leafbrushes            734/65536        1468/131072   ( 1.1%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            31601/512000     126404/2048000  ( 6.2%) 
+edges                17579/256000      70316/1024000  ( 6.9%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            617/32768        6170/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9066/65536       18132/131072   (13.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    22171464/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4922/393216   ( 1.3%) 
+LDR ambient table      481/65536        1924/262144   ( 0.7%) 
+HDR ambient table      481/65536        1924/262144   ( 0.7%) 
+LDR leaf ambient      2980/65536       83440/1835008  ( 4.5%) 
+HDR leaf ambient       481/65536       13468/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6116     ( 0.0%) 
+pakfile               [variable]      211882/0        ( 0.0%) 
+physics               [variable]      145439/4194304  ( 3.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14527
+Writing c:\program files (x86)\steam\steamapps\common\double action\dab\maps\da_drain\da_drain.bsp
+17 seconds elapsed
