@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+	$basetexture models/stormy/big_pipe/big_pipe_dif
+	$phong 1
+	$phongboost 2
+	$phongfresnelranges "[.75 .75 1]"
+}	
