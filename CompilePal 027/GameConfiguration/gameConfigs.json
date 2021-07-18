@@ -1,0 +1,58 @@
+[
+  {
+    "GameFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\hl2mp",
+    "VBSP": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vbsp.exe",
+    "VVIS": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vvis.exe",
+    "VRAD": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vrad.exe",
+    "BSPZip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\bspzip.exe",
+    "VBSPInfo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vbspinfo.exe",
+    "VPK": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vpk.exe",
+    "GameEXE": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\hl2.exe",
+    "MapFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\hl2mp\\maps",
+    "SDKMapFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\sourcesdk_content\\hl2mp\\mapsrc",
+    "BinFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin",
+    "Name": "Half-Life 2: Deathmatch"
+  },
+  {
+    "GameFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\hl2",
+    "VBSP": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vbsp.exe",
+    "VVIS": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vvis.exe",
+    "VRAD": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vrad.exe",
+    "BSPZip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\bspzip.exe",
+    "VBSPInfo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vbspinfo.exe",
+    "VPK": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vpk.exe",
+    "GameEXE": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\hl2.exe",
+    "MapFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\hl2\\maps",
+    "SDKMapFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\sourcesdk_content\\hl2\\mapsrc",
+    "BinFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin",
+    "Name": "Half-Life 2"
+  },
+  {
+    "GameFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\sourcetest",
+    "VBSP": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vbsp.exe",
+    "VVIS": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vvis.exe",
+    "VRAD": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vrad.exe",
+    "BSPZip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\bspzip.exe",
+    "VBSPInfo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vbspinfo.exe",
+    "VPK": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vpk.exe",
+    "GameEXE": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\hl2.exe",
+    "MapFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\sourcetest\\maps",
+    "SDKMapFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\sourcesdk_content\\sourcetest\\mapsrc",
+    "BinFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin",
+    "Name": "SourceTest"
+  },
+  {
+    "GameFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\dab",
+    "VBSP": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vbsp.exe",
+    "VVIS": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vvis.exe",
+    "VRAD": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vrad.exe",
+    "BSPZip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\bspzip.exe",
+    "VBSPInfo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vbspinfo.exe",
+    "VPK": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin\\vpk.exe",
+    "GameEXE": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\hl2.exe",
+    "MapFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\dab\\maps",
+    "SDKMapFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\dab\\maps",
+    "BinFolder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Double Action\\bin",
+    "Name": "Double Action: Boogaloo"
+  }
+]
