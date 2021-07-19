@@ -24346,3 +24346,174 @@ Level flags = 0
 Total triangle count: 24268
 Writing c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.bsp
 1 minute, 23 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1010 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (426906 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2284 texinfos to 1724
+Reduced 48 texdatas to 38 (1411 bytes to 1001)
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.prt
+ 216 portalclusters
+ 617 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 237 visible clusters (0.78%)
+Total clusters visible: 30293
+Average clusters visible: 140
+Building PAS...
+Average clusters audible: 214
+visdatasize:13123  compressed from 13824
+writing c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.bsp
+8665 faces
+914766 square feet [131726440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+8665 patches before subdivision
+zero area child patch
+346253 patches after subdivision
+25 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 82122225, max 1433
+transfer lists: 626.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2712577, 2938020, 3297230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(701076, 692175, 725164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(262365, 272791, 279989)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(121524, 137535, 141505)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(64785, 77139, 79585)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(36760, 44771, 46218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(21465, 26310, 27128)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(12682, 15531, 15979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(7533, 9187, 9425)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4485, 5439, 5562)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2673, 3222, 3283)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1595, 1909, 1939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(951, 1131, 1145)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(568, 671, 676)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(339, 397, 399)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(202, 236, 236)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(121, 140, 139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(72, 83, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(43, 49, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(26, 29, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(15, 17, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(9, 10, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(5, 6, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(3, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0851 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes               1136/8192        13632/98304    (13.9%) 
+brushsides            8264/65536       66112/524288   (12.6%) 
+planes                5672/65536      113440/1310720  ( 8.7%) 
+vertexes             13403/65536      160836/786432   (20.5%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos              1724/12288      124128/884736   (14.0%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 8665/65536      485240/3670016  (13.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4539/65536      254184/3670016  ( 6.9%) 
+leaves                 563/65536       18016/2097152  ( 0.9%) 
+leaffaces            10278/65536       20556/131072   (15.7%) 
+leafbrushes           1771/65536        3542/131072   ( 2.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            59796/512000     239184/2048000  (11.7%) 
+edges                34556/256000     138224/1024000  (13.5%) 
+LDR worldlights         25/8192         2200/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1162/32768       11620/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         18447/65536       36894/131072   (28.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    27174788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13123/16777216 ( 0.1%) 
+entdata               [variable]       13778/393216   ( 3.5%) 
+LDR ambient table      563/65536        2252/262144   ( 0.9%) 
+HDR ambient table      563/65536        2252/262144   ( 0.9%) 
+LDR leaf ambient      3154/65536       88312/1835008  ( 4.8%) 
+HDR leaf ambient       563/65536       15764/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14324    ( 0.0%) 
+pakfile               [variable]      213814/0        ( 0.0%) 
+physics               [variable]      426906/4194304  (10.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 24268
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.bsp
+1 minute, 28 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_drain\da_drain.bsp
+8665 faces
+914766 square feet [131726440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+8665 patches before subdivision
+zero area child patch
+346253 patches after subdivision
+25 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...
