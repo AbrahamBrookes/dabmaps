@@ -2,7 +2,7 @@
   "Name": "GAME",
   "Path": "$gameEXE$",
   "Order": 13.0,
-  "DoRun": true,
+  "DoRun": false,
   "ReadOutput": false,
   "Description": "Launch the game with your map.",
   "Warning": "",

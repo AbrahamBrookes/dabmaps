@@ -2,7 +2,10 @@
 
 $modelname "player/bomber.mdl"
 
-$model "body" "bomber_ref.smd" 
+$bodygroup "body"
+{
+	studio "bomber_ref.smd"
+}
 
 
 $surfaceprop "flesh"
@@ -76,6 +79,33 @@ $bonemerge "DABBiped.LHandWeapon"
 
 $includemodel "player/shared.mdl"
 
+$sequence "bomber_pose" {
+	"anims\bomber_pose.smd"
+}
+
+
+$animation "a_akimbo_dive_float_n" "anims\a_akimbo_dive_float_n.smd" {
+	walkframe 1 LX LY
+}
+
+$animation "a_akimbo_dive_n" "anims\a_akimbo_dive_n.smd" {
+	walkframe 1 LX LY
+	walkframe 2 LX LY
+	walkframe 4 LX LY
+	walkframe 6 LX LY
+	walkframe 8 LX LY
+	walkframe 10 LX LY
+	walkframe 15 LX LY
+	walkframe 20 LX LY
+	walkframe 25 LX LY
+	walkframe 30 LX LY
+	walkframe 35 LX LY
+	walkframe 40 LX LY
+	walkframe 45 LX LY
+	walkframe 46 LX LY
+}
+
+
 $collisionjoints "bomber_physics.smd"
 {
 	$mass 85
@@ -118,18 +148,6 @@ $collisionjoints "bomber_physics.smd"
 	$jointconstrain "DABBiped.ChestBone" y limit -20 20 0
 	$jointconstrain "DABBiped.ChestBone" z limit -15 15 0
 
-	$jointmassbias "DABBiped.RShoulder" 0.6
-	$jointrotdamping "DABBiped.RShoulder" 12.5
-	$jointconstrain "DABBiped.RShoulder" x limit 0 0 0
-	$jointconstrain "DABBiped.RShoulder" y limit -16 16 0
-	$jointconstrain "DABBiped.RShoulder" z limit -20 20 0
-
-	$jointmassbias "DABBiped.RBicep" 0.8
-	$jointrotdamping "DABBiped.RBicep" 16
-	$jointconstrain "DABBiped.RBicep" x limit -50 40 0
-	$jointconstrain "DABBiped.RBicep" y limit -32 55 0
-	$jointconstrain "DABBiped.RBicep" z limit -80 25 0
-
 	$jointmassbias "DABBiped.LShoulder" 0.6
 	$jointrotdamping "DABBiped.LShoulder" 12.5
 	$jointconstrain "DABBiped.LShoulder" x limit 0 0 0
@@ -147,16 +165,28 @@ $collisionjoints "bomber_physics.smd"
 	$jointconstrain "DABBiped.LForearm" y limit 0 0 0
 	$jointconstrain "DABBiped.LForearm" z limit -120 -6 0
 
-	$jointmassbias "DABBiped.RForearm" 1.8
-	$jointconstrain "DABBiped.RForearm" x limit 0 0 0
-	$jointconstrain "DABBiped.RForearm" y limit 0 0 0
-	$jointconstrain "DABBiped.RForearm" z limit -120 -6 0
-
 	$jointmassbias "DABBiped.LHand" 0.6
 	$jointrotdamping "DABBiped.LHand" 8
 	$jointconstrain "DABBiped.LHand" x limit -30 37 0
 	$jointconstrain "DABBiped.LHand" y limit -12 8 0
 	$jointconstrain "DABBiped.LHand" z limit -20 35 0
+
+	$jointmassbias "DABBiped.RShoulder" 0.6
+	$jointrotdamping "DABBiped.RShoulder" 12.5
+	$jointconstrain "DABBiped.RShoulder" x limit 0 0 0
+	$jointconstrain "DABBiped.RShoulder" y limit -16 16 0
+	$jointconstrain "DABBiped.RShoulder" z limit -20 20 0
+
+	$jointmassbias "DABBiped.RBicep" 0.8
+	$jointrotdamping "DABBiped.RBicep" 16
+	$jointconstrain "DABBiped.RBicep" x limit -50 40 0
+	$jointconstrain "DABBiped.RBicep" y limit -32 55 0
+	$jointconstrain "DABBiped.RBicep" z limit -80 25 0
+
+	$jointmassbias "DABBiped.RForearm" 1.8
+	$jointconstrain "DABBiped.RForearm" x limit 0 0 0
+	$jointconstrain "DABBiped.RForearm" y limit 0 0 0
+	$jointconstrain "DABBiped.RForearm" z limit -120 -6 0
 
 	$jointmassbias "DABBiped.RHand" 0.6
 	$jointrotdamping "DABBiped.RHand" 8
@@ -176,32 +206,32 @@ $collisionjoints "bomber_physics.smd"
 	$jointconstrain "DABBiped.RFootBone1" y limit -19 25 0
 	$jointconstrain "DABBiped.RFootBone1" z limit -17 24 0
 
-	$jointcollide "DABBiped.RFootBone1" "DABBiped.LFootBone1"
-	$jointcollide "DABBiped.RFootBone1" "DABBiped.LShin"
-	$jointcollide "DABBiped.RFootBone1" "DABBiped.LThigh"
-	$jointcollide "DABBiped.RShin" "DABBiped.LFootBone1"
-	$jointcollide "DABBiped.RShin" "DABBiped.LShin"
-	$jointcollide "DABBiped.RShin" "DABBiped.LThigh"
-	$jointcollide "DABBiped.RThigh" "DABBiped.LFootBone1"
-	$jointcollide "DABBiped.RThigh" "DABBiped.LShin"
-	$jointcollide "DABBiped.RThigh" "DABBiped.LThigh"
-	$jointcollide "DABBiped.RHand" "DABBiped.Head"
-	$jointcollide "DABBiped.RHand" "DABBiped.ChestBone"
-	$jointcollide "DABBiped.RHand" "DABBiped.UpperBody"
-	$jointcollide "DABBiped.RHand" "DABBiped.RThigh"
-	$jointcollide "DABBiped.RForearm" "DABBiped.Head"
-	$jointcollide "DABBiped.RForearm" "DABBiped.ChestBone"
-	$jointcollide "DABBiped.RForearm" "DABBiped.UpperBody"
-	$jointcollide "DABBiped.RForearm" "DABBiped.RThigh"
-	$jointcollide "DABBiped.LHand" "DABBiped.RHand"
-	$jointcollide "DABBiped.LHand" "DABBiped.Head"
-	$jointcollide "DABBiped.LHand" "DABBiped.ChestBone"
-	$jointcollide "DABBiped.LHand" "DABBiped.UpperBody"
-	$jointcollide "DABBiped.LHand" "DABBiped.LThigh"
-	$jointcollide "DABBiped.LForearm" "DABBiped.RHand"
-	$jointcollide "DABBiped.LForearm" "DABBiped.RForearm"
-	$jointcollide "DABBiped.LForearm" "DABBiped.Head"
-	$jointcollide "DABBiped.LForearm" "DABBiped.ChestBone"
-	$jointcollide "DABBiped.LForearm" "DABBiped.UpperBody"
 	$jointcollide "DABBiped.LForearm" "DABBiped.LThigh"
+	$jointcollide "DABBiped.LForearm" "DABBiped.UpperBody"
+	$jointcollide "DABBiped.LForearm" "DABBiped.ChestBone"
+	$jointcollide "DABBiped.LForearm" "DABBiped.Head"
+	$jointcollide "DABBiped.LForearm" "DABBiped.RForearm"
+	$jointcollide "DABBiped.LForearm" "DABBiped.RHand"
+	$jointcollide "DABBiped.LHand" "DABBiped.LThigh"
+	$jointcollide "DABBiped.LHand" "DABBiped.UpperBody"
+	$jointcollide "DABBiped.LHand" "DABBiped.ChestBone"
+	$jointcollide "DABBiped.LHand" "DABBiped.Head"
+	$jointcollide "DABBiped.LHand" "DABBiped.RHand"
+	$jointcollide "DABBiped.RForearm" "DABBiped.RThigh"
+	$jointcollide "DABBiped.RForearm" "DABBiped.UpperBody"
+	$jointcollide "DABBiped.RForearm" "DABBiped.ChestBone"
+	$jointcollide "DABBiped.RForearm" "DABBiped.Head"
+	$jointcollide "DABBiped.RHand" "DABBiped.RThigh"
+	$jointcollide "DABBiped.RHand" "DABBiped.UpperBody"
+	$jointcollide "DABBiped.RHand" "DABBiped.ChestBone"
+	$jointcollide "DABBiped.RHand" "DABBiped.Head"
+	$jointcollide "DABBiped.RThigh" "DABBiped.LThigh"
+	$jointcollide "DABBiped.RThigh" "DABBiped.LShin"
+	$jointcollide "DABBiped.RThigh" "DABBiped.LFootBone1"
+	$jointcollide "DABBiped.RShin" "DABBiped.LThigh"
+	$jointcollide "DABBiped.RShin" "DABBiped.LShin"
+	$jointcollide "DABBiped.RShin" "DABBiped.LFootBone1"
+	$jointcollide "DABBiped.RFootBone1" "DABBiped.LThigh"
+	$jointcollide "DABBiped.RFootBone1" "DABBiped.LShin"
+	$jointcollide "DABBiped.RFootBone1" "DABBiped.LFootBone1"
 }
