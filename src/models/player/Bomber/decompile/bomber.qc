@@ -105,6 +105,44 @@ $animation "a_akimbo_dive_n" "anims\a_akimbo_dive_n.smd" {
 	walkframe 46 LX LY
 }
 
+$animation "a_akimbo_diveslide_n" "anims\a_akimbo_dive_float_n.smd" {
+	fps 120
+	loop
+}
+
+
+
+$animation "a_akimbo_wall_flip_se" "shared_anims\a_wall_flip_se.smd" {
+	fps 60
+}
+
+$animation "a_akimbo_wall_flip_e" "shared_anims\a_wall_flip_e.smd" {
+	fps 60
+}
+
+$animation "a_akimbo_wall_flip_ne" "shared_anims\a_wall_flip_ne.smd" {
+	fps 60
+}
+
+$animation "a_akimbo_wall_flip_n" "shared_anims\a_wall_flip_n.smd" {
+	fps 60
+}
+
+$animation "a_akimbo_wall_flip_nw" "shared_anims\a_wall_flip_nw.smd" {
+	fps 60
+}
+
+$animation "a_akimbo_wall_flip_w" "shared_anims\a_wall_flip_w.smd" {
+	fps 60
+}
+
+$animation "a_akimbo_wall_flip_sw" "shared_anims\a_wall_flip_sw.smd" {
+	fps 60
+}
+
+$animation "a_akimbo_wall_flip_s" "shared_anims\a_wall_flip_s.smd" {
+	fps 60
+}
 
 $collisionjoints "bomber_physics.smd"
 {
