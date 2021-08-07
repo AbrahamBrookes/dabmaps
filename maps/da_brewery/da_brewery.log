@@ -7674,3 +7674,1845 @@ Level flags = 0
 Total triangle count: 42030
 Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
 54 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+Can't find surfaceprop stone for material STORMY/PAVEMENT_01, using default
+Can't find surfaceprop clay for material TILE/FLOOR05, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/da_brewery/wood/woodfloor002_178_-364_152!!!
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (9.59 744.41 -63.86) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 -1024.0 322.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -760.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -760.0 284.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -760.0 614.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -932.0 322.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -676.0 36.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -676.0 256.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -676.0 368.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2678 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1177171 bytes)
+Error! To use model "models/player/wish.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/wish.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6765 texinfos to 4268
+Reduced 123 texdatas to 104 (4235 bytes to 3802)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+LoadPortals: couldn't read c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+No vis information, direct lighting only.
+15909 faces
+11 degenerate faces
+334983 square feet [48237592.00 square inches]
+4 Displacements
+9735 Square Feet [1401898.63 Square Inches]
+53 direct lights
+0...1...2...3...4...5...6...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+Can't find surfaceprop stone for material STORMY/PAVEMENT_01, using default
+Can't find surfaceprop clay for material TILE/FLOOR05, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/da_brewery/wood/woodfloor002_178_-364_152!!!
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2678 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1145947 bytes)
+Error! To use model "models/player/wish.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/wish.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6765 texinfos to 3968
+Reduced 123 texdatas to 103 (4235 bytes to 3776)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 516 portalclusters
+1504 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6867 visible clusters (3.88%)
+Total clusters visible: 177047
+Average clusters visible: 343
+Building PAS...
+Average clusters audible: 471
+visdatasize:67072  compressed from 74304
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+14009 faces
+11 degenerate faces
+255093 square feet [36733432.00 square inches]
+4 Displacements
+9735 Square Feet [1401898.63 Square Inches]
+13998 patches before subdivision
+13998 patches after subdivision
+53 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3883019, max 2007
+transfer lists:  29.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(59002, 49475, 36651)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11078, 8048, 5140)
+Build Patch/Sample Hash Table(s).....Done<0.0721 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes               2433/8192        29196/98304    (29.7%) 
+brushsides           18818/65536      150544/524288   (28.7%) 
+planes               13002/65536      260040/1310720  (19.8%) 
+vertexes             22286/65536      267432/786432   (34.0%) 
+nodes                 1275/65536       40800/2097152  ( 1.9%) 
+texinfos              3968/12288      285696/884736   (32.3%) 
+texdata                103/2048         3296/65536    ( 5.0%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts            1156/0           23120/0        ( 0.0%) 
+disp_tris             2048/0            4096/0        ( 0.0%) 
+disp_lmsamples      104008/0          104008/0        ( 0.0%) 
+faces                14009/65536      784504/3670016  (21.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8611/65536      482216/3670016  (13.1%) 
+leaves                1312/65536       41984/2097152  ( 2.0%) 
+leaffaces            19181/65536       38362/131072   (29.3%) 
+leafbrushes           4021/65536        8042/131072   ( 6.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           104941/512000     419764/2048000  (20.5%) 
+edges                64273/256000     257092/1024000  (25.1%) 
+LDR worldlights         53/8192         4664/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1753/32768       17530/327680   ( 5.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         36603/65536       73206/131072   (55.9%) 
+cubemapsamples           7/1024          112/16384    ( 0.7%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    31258948/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       67072/16777216 ( 0.4%) 
+entdata               [variable]       66854/393216   (17.0%) 
+LDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+HDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+LDR leaf ambient      4492/65536      125776/1835008  ( 6.9%) 
+HDR leaf ambient      1312/65536       36736/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/25910    ( 0.0%) 
+pakfile               [variable]      712047/0        ( 0.0%) 
+physics               [variable]     1145947/4194304  (27.3%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 42426
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+50 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+Patching WVT material: maps/da_brewery/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 420 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (332021 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2071 texinfos to 1252
+Reduced 45 texdatas to 31 (1215 bytes to 906)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+  87 portalclusters
+ 204 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 85 visible clusters (1.43%)
+Total clusters visible: 5956
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 84
+visdatasize:2626  compressed from 2784
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3269 faces
+1 degenerate faces
+60326 square feet [8686949.00 square inches]
+2 Displacements
+4867 Square Feet [700959.88 Square Inches]
+3268 patches before subdivision
+3268 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 423682, max 578
+transfer lists:   3.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(10603, 9259, 6034)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1895, 1518, 869)
+Build Patch/Sample Hash Table(s).....Done<0.0148 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                559/8192         6708/98304    ( 6.8%) 
+brushsides            4275/65536       34200/524288   ( 6.5%) 
+planes                3538/65536       70760/1310720  ( 5.4%) 
+vertexes              5359/65536       64308/786432   ( 8.2%) 
+nodes                  240/65536        7680/2097152  ( 0.4%) 
+texinfos              1252/12288       90144/884736   (10.2%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       52004/0           52004/0        ( 0.0%) 
+faces                 3269/65536      183064/3670016  ( 5.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2049/65536      114744/3670016  ( 3.1%) 
+leaves                 242/65536        7744/2097152  ( 0.4%) 
+leaffaces             4063/65536        8126/131072   ( 6.2%) 
+leafbrushes            994/65536        1988/131072   ( 1.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            24564/512000      98256/2048000  ( 4.8%) 
+edges                15204/256000      60816/1024000  ( 5.9%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            378/32768        3780/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8202/65536       16404/131072   (12.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     7458372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2626/16777216 ( 0.0%) 
+entdata               [variable]       15689/393216   ( 4.0%) 
+LDR ambient table      242/65536         968/262144   ( 0.4%) 
+HDR ambient table      242/65536         968/262144   ( 0.4%) 
+LDR leaf ambient       564/65536       15792/1835008  ( 0.9%) 
+HDR leaf ambient       242/65536        6776/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7892     ( 0.0%) 
+pakfile               [variable]      176485/0        ( 0.0%) 
+physics               [variable]      332021/4194304  ( 7.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9825
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+Patching WVT material: maps/da_brewery/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 420 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (332021 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2071 texinfos to 1252
+Reduced 45 texdatas to 31 (1215 bytes to 906)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+  87 portalclusters
+ 204 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 85 visible clusters (1.43%)
+Total clusters visible: 5956
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 84
+visdatasize:2626  compressed from 2784
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3269 faces
+1 degenerate faces
+60326 square feet [8686949.00 square inches]
+2 Displacements
+4867 Square Feet [700959.88 Square Inches]
+3268 patches before subdivision
+3268 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 423682, max 578
+transfer lists:   3.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(10603, 9259, 6034)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1895, 1518, 869)
+Build Patch/Sample Hash Table(s).....Done<0.0151 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                559/8192         6708/98304    ( 6.8%) 
+brushsides            4275/65536       34200/524288   ( 6.5%) 
+planes                3536/65536       70720/1310720  ( 5.4%) 
+vertexes              5359/65536       64308/786432   ( 8.2%) 
+nodes                  240/65536        7680/2097152  ( 0.4%) 
+texinfos              1252/12288       90144/884736   (10.2%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       52004/0           52004/0        ( 0.0%) 
+faces                 3269/65536      183064/3670016  ( 5.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2049/65536      114744/3670016  ( 3.1%) 
+leaves                 242/65536        7744/2097152  ( 0.4%) 
+leaffaces             4063/65536        8126/131072   ( 6.2%) 
+leafbrushes            994/65536        1988/131072   ( 1.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            24572/512000      98288/2048000  ( 4.8%) 
+edges                15209/256000      60836/1024000  ( 5.9%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            382/32768        3820/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8283/65536       16566/131072   (12.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     7458372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2626/16777216 ( 0.0%) 
+entdata               [variable]       15689/393216   ( 4.0%) 
+LDR ambient table      242/65536         968/262144   ( 0.4%) 
+HDR ambient table      242/65536         968/262144   ( 0.4%) 
+LDR leaf ambient       564/65536       15792/1835008  ( 0.9%) 
+HDR leaf ambient       242/65536        6776/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7892     ( 0.0%) 
+pakfile               [variable]      176485/0        ( 0.0%) 
+physics               [variable]      332021/4194304  ( 7.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9833
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+Patching WVT material: maps/da_brewery/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 420 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (331381 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2064 texinfos to 1280
+Reduced 45 texdatas to 32 (1215 bytes to 929)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 150 portalclusters
+ 345 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 407 visible clusters (3.62%)
+Total clusters visible: 11249
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 131
+visdatasize:6987  compressed from 7200
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3660 faces
+1 degenerate faces
+98117 square feet [14128981.00 square inches]
+2 Displacements
+4867 Square Feet [700959.88 Square Inches]
+3659 patches before subdivision
+3659 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 461016, max 579
+transfer lists:   3.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(10652, 9300, 6058)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1901, 1521, 871)
+Build Patch/Sample Hash Table(s).....Done<0.0192 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                556/8192         6672/98304    ( 6.8%) 
+brushsides            4257/65536       34056/524288   ( 6.5%) 
+planes                3532/65536       70640/1310720  ( 5.4%) 
+vertexes              5959/65536       71508/786432   ( 9.1%) 
+nodes                  386/65536       12352/2097152  ( 0.6%) 
+texinfos              1280/12288       92160/884736   (10.4%) 
+texdata                 32/2048         1024/65536    ( 1.6%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       52004/0           52004/0        ( 0.0%) 
+faces                 3660/65536      204960/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2091/65536      117096/3670016  ( 3.2%) 
+leaves                 388/65536       12416/2097152  ( 0.6%) 
+leaffaces             4620/65536        9240/131072   ( 7.0%) 
+leafbrushes           1014/65536        2028/131072   ( 1.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            26593/512000     106372/2048000  ( 5.2%) 
+edges                16284/256000      65136/1024000  ( 6.4%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            438/32768        4380/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9111/65536       18222/131072   (13.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8278808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6987/16777216 ( 0.0%) 
+entdata               [variable]       16220/393216   ( 4.1%) 
+LDR ambient table      388/65536        1552/262144   ( 0.6%) 
+HDR ambient table      388/65536        1552/262144   ( 0.6%) 
+LDR leaf ambient      1303/65536       36484/1835008  ( 2.0%) 
+HDR leaf ambient       388/65536       10864/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7906     ( 0.0%) 
+pakfile               [variable]      176485/0        ( 0.0%) 
+physics               [variable]      331381/4194304  ( 7.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10903
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+Patching WVT material: maps/da_brewery/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 420 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (331381 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2064 texinfos to 1280
+Reduced 45 texdatas to 32 (1215 bytes to 929)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 150 portalclusters
+ 345 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 407 visible clusters (3.62%)
+Total clusters visible: 11249
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 131
+visdatasize:6987  compressed from 7200
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3660 faces
+1 degenerate faces
+98117 square feet [14128981.00 square inches]
+2 Displacements
+4867 Square Feet [700959.88 Square Inches]
+3659 patches before subdivision
+3659 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 461016, max 579
+transfer lists:   3.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(10652, 9300, 6058)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1901, 1521, 871)
+Build Patch/Sample Hash Table(s).....Done<0.0201 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                556/8192         6672/98304    ( 6.8%) 
+brushsides            4257/65536       34056/524288   ( 6.5%) 
+planes                3532/65536       70640/1310720  ( 5.4%) 
+vertexes              5959/65536       71508/786432   ( 9.1%) 
+nodes                  386/65536       12352/2097152  ( 0.6%) 
+texinfos              1280/12288       92160/884736   (10.4%) 
+texdata                 32/2048         1024/65536    ( 1.6%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       52004/0           52004/0        ( 0.0%) 
+faces                 3660/65536      204960/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2091/65536      117096/3670016  ( 3.2%) 
+leaves                 388/65536       12416/2097152  ( 0.6%) 
+leaffaces             4620/65536        9240/131072   ( 7.0%) 
+leafbrushes           1014/65536        2028/131072   ( 1.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            26593/512000     106372/2048000  ( 5.2%) 
+edges                16284/256000      65136/1024000  ( 6.4%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            438/32768        4380/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9111/65536       18222/131072   (13.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8278808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6987/16777216 ( 0.0%) 
+entdata               [variable]       16220/393216   ( 4.1%) 
+LDR ambient table      388/65536        1552/262144   ( 0.6%) 
+HDR ambient table      388/65536        1552/262144   ( 0.6%) 
+LDR leaf ambient      1303/65536       36484/1835008  ( 2.0%) 
+HDR leaf ambient       388/65536       10864/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7906     ( 0.0%) 
+pakfile               [variable]      176485/0        ( 0.0%) 
+physics               [variable]      331381/4194304  ( 7.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10903
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+Patching WVT material: maps/da_brewery/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 420 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (331381 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2064 texinfos to 1280
+Reduced 45 texdatas to 32 (1215 bytes to 929)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 150 portalclusters
+ 345 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 407 visible clusters (3.62%)
+Total clusters visible: 11249
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 131
+visdatasize:6987  compressed from 7200
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3660 faces
+1 degenerate faces
+98117 square feet [14128981.00 square inches]
+2 Displacements
+4867 Square Feet [700959.88 Square Inches]
+3659 patches before subdivision
+3659 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 461016, max 579
+transfer lists:   3.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12850, 11209, 7174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2225, 1770, 1003)
+Build Patch/Sample Hash Table(s).....Done<0.0217 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                556/8192         6672/98304    ( 6.8%) 
+brushsides            4257/65536       34056/524288   ( 6.5%) 
+planes                3532/65536       70640/1310720  ( 5.4%) 
+vertexes              5959/65536       71508/786432   ( 9.1%) 
+nodes                  386/65536       12352/2097152  ( 0.6%) 
+texinfos              1280/12288       92160/884736   (10.4%) 
+texdata                 32/2048         1024/65536    ( 1.6%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       52004/0           52004/0        ( 0.0%) 
+faces                 3660/65536      204960/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2091/65536      117096/3670016  ( 3.2%) 
+leaves                 388/65536       12416/2097152  ( 0.6%) 
+leaffaces             4620/65536        9240/131072   ( 7.0%) 
+leafbrushes           1014/65536        2028/131072   ( 1.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            26593/512000     106372/2048000  ( 5.2%) 
+edges                16284/256000      65136/1024000  ( 6.4%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            438/32768        4380/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9111/65536       18222/131072   (13.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8278808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6987/16777216 ( 0.0%) 
+entdata               [variable]       16222/393216   ( 4.1%) 
+LDR ambient table      388/65536        1552/262144   ( 0.6%) 
+HDR ambient table      388/65536        1552/262144   ( 0.6%) 
+LDR leaf ambient      1339/65536       37492/1835008  ( 2.0%) 
+HDR leaf ambient       388/65536       10864/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7906     ( 0.0%) 
+pakfile               [variable]      176485/0        ( 0.0%) 
+physics               [variable]      331381/4194304  ( 7.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10903
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+Can't find surfaceprop stone for material STORMY/PAVEMENT_01, using default
+Can't find surfaceprop clay for material TILE/FLOOR05, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/da_brewery/wood/woodfloor002_178_-364_152!!!
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2694 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1155531 bytes)
+Error! To use model "models/player/wish.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/wish.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_1.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_4.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_4.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_2.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_2.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_3.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pole/staircase_pole_1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pole/staircase_pole_1.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pole/staircase_pole.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pole/staircase_pole.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pole/staircase_pole_2.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pole/staircase_pole_2.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6785 texinfos to 4059
+Reduced 126 texdatas to 105 (4303 bytes to 3817)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 514 portalclusters
+1501 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6846 visible clusters (3.89%)
+Total clusters visible: 175942
+Average clusters visible: 342
+Building PAS...
+Average clusters audible: 469
+visdatasize:66870  compressed from 74016
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+14176 faces
+16 degenerate faces
+256806 square feet [36980200.00 square inches]
+4 Displacements
+9735 Square Feet [1401898.63 Square Inches]
+14160 patches before subdivision
+14160 patches after subdivision
+53 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3718465, max 1923
+transfer lists:  28.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(60720, 51117, 37741)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11238, 8217, 5256)
+Build Patch/Sample Hash Table(s).....Done<0.0800 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes               2458/8192        29496/98304    (30.0%) 
+brushsides           19030/65536      152240/524288   (29.0%) 
+planes               13122/65536      262440/1310720  (20.0%) 
+vertexes             22423/65536      269076/786432   (34.2%) 
+nodes                 1273/65536       40736/2097152  ( 1.9%) 
+texinfos              4059/12288      292248/884736   (33.0%) 
+texdata                105/2048         3360/65536    ( 5.1%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts            1156/0           23120/0        ( 0.0%) 
+disp_tris             2048/0            4096/0        ( 0.0%) 
+disp_lmsamples      104008/0          104008/0        ( 0.0%) 
+faces                14176/65536      793856/3670016  (21.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8733/65536      489048/3670016  (13.3%) 
+leaves                1310/65536       41920/2097152  ( 2.0%) 
+leaffaces            19343/65536       38686/131072   (29.5%) 
+leafbrushes           4049/65536        8098/131072   ( 6.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           106255/512000     425020/2048000  (20.8%) 
+edges                65021/256000     260084/1024000  (25.4%) 
+LDR worldlights         53/8192         4664/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1778/32768       17780/327680   ( 5.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         37146/65536       74292/131072   (56.7%) 
+cubemapsamples           7/1024          112/16384    ( 0.7%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    31289788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       66870/16777216 ( 0.4%) 
+entdata               [variable]       67387/393216   (17.1%) 
+LDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+HDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+LDR leaf ambient      4470/65536      125160/1835008  ( 6.8%) 
+HDR leaf ambient      1310/65536       36680/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/28058    ( 0.0%) 
+pakfile               [variable]      712047/0        ( 0.0%) 
+physics               [variable]     1155531/4194304  (27.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 42920
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+55 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+Can't find surfaceprop stone for material STORMY/PAVEMENT_01, using default
+Can't find surfaceprop clay for material TILE/FLOOR05, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/da_brewery/wood/woodfloor002_178_-364_152!!!
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2694 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1155531 bytes)
+Error! To use model "models/player/wish.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/wish.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_1.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_4.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_4.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_2.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_2.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_3.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pole/staircase_pole_1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pole/staircase_pole_1.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pole/staircase_pole.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pole/staircase_pole.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pole/staircase_pole_2.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pole/staircase_pole_2.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6785 texinfos to 4059
+Reduced 126 texdatas to 105 (4303 bytes to 3817)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 514 portalclusters
+1501 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6846 visible clusters (3.89%)
+Total clusters visible: 175942
+Average clusters visible: 342
+Building PAS...
+Average clusters audible: 469
+visdatasize:66870  compressed from 74016
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+14176 faces
+16 degenerate faces
+256806 square feet [36980200.00 square inches]
+4 Displacements
+9735 Square Feet [1401898.63 Square Inches]
+14160 patches before subdivision
+14160 patches after subdivision
+53 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3703261, max 1918
+transfer lists:  28.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61257, 51506, 37947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11336, 8271, 5272)
+Build Patch/Sample Hash Table(s).....Done<0.0737 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes               2458/8192        29496/98304    (30.0%) 
+brushsides           19032/65536      152256/524288   (29.0%) 
+planes               13112/65536      262240/1310720  (20.0%) 
+vertexes             22423/65536      269076/786432   (34.2%) 
+nodes                 1273/65536       40736/2097152  ( 1.9%) 
+texinfos              4059/12288      292248/884736   (33.0%) 
+texdata                105/2048         3360/65536    ( 5.1%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts            1156/0           23120/0        ( 0.0%) 
+disp_tris             2048/0            4096/0        ( 0.0%) 
+disp_lmsamples      104008/0          104008/0        ( 0.0%) 
+faces                14176/65536      793856/3670016  (21.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8733/65536      489048/3670016  (13.3%) 
+leaves                1310/65536       41920/2097152  ( 2.0%) 
+leaffaces            19343/65536       38686/131072   (29.5%) 
+leafbrushes           4049/65536        8098/131072   ( 6.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           106255/512000     425020/2048000  (20.8%) 
+edges                65021/256000     260084/1024000  (25.4%) 
+LDR worldlights         53/8192         4664/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1778/32768       17780/327680   ( 5.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         37146/65536       74292/131072   (56.7%) 
+cubemapsamples           7/1024          112/16384    ( 0.7%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    31289844/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       66870/16777216 ( 0.4%) 
+entdata               [variable]       68037/393216   (17.3%) 
+LDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+HDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+LDR leaf ambient      4474/65536      125272/1835008  ( 6.8%) 
+HDR leaf ambient      1310/65536       36680/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27992    ( 0.0%) 
+pakfile               [variable]      712047/0        ( 0.0%) 
+physics               [variable]     1155531/4194304  (27.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 42920
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+51 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+Can't find surfaceprop stone for material STORMY/PAVEMENT_01, using default
+Can't find surfaceprop clay for material TILE/FLOOR05, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/da_brewery/wood/woodfloor002_178_-364_152!!!
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2694 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1155531 bytes)
+Error! To use model "models/player/wish.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/wish.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_1.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_4.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_4.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_2.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_2.mdl"!
+Error! prop_static using model "models/stormy/staircase/staircase_pillar/pillar_gib_3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/stormy/staircase/staircase_pillar/pillar_gib_3.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6785 texinfos to 4059
+Reduced 126 texdatas to 105 (4303 bytes to 3817)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 514 portalclusters
+1501 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6846 visible clusters (3.89%)
+Total clusters visible: 175942
+Average clusters visible: 342
+Building PAS...
+Average clusters audible: 469
+visdatasize:66870  compressed from 74016
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+14176 faces
+16 degenerate faces
+256806 square feet [36980200.00 square inches]
+4 Displacements
+9735 Square Feet [1401898.63 Square Inches]
+14160 patches before subdivision
+14160 patches after subdivision
+53 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3703335, max 1918
+transfer lists:  28.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61257, 51507, 37947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11336, 8271, 5272)
+Build Patch/Sample Hash Table(s).....Done<0.0801 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes               2458/8192        29496/98304    (30.0%) 
+brushsides           19032/65536      152256/524288   (29.0%) 
+planes               13112/65536      262240/1310720  (20.0%) 
+vertexes             22423/65536      269076/786432   (34.2%) 
+nodes                 1273/65536       40736/2097152  ( 1.9%) 
+texinfos              4059/12288      292248/884736   (33.0%) 
+texdata                105/2048         3360/65536    ( 5.1%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts            1156/0           23120/0        ( 0.0%) 
+disp_tris             2048/0            4096/0        ( 0.0%) 
+disp_lmsamples      104008/0          104008/0        ( 0.0%) 
+faces                14176/65536      793856/3670016  (21.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8733/65536      489048/3670016  (13.3%) 
+leaves                1310/65536       41920/2097152  ( 2.0%) 
+leaffaces            19343/65536       38686/131072   (29.5%) 
+leafbrushes           4049/65536        8098/131072   ( 6.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           106255/512000     425020/2048000  (20.8%) 
+edges                65021/256000     260084/1024000  (25.4%) 
+LDR worldlights         53/8192         4664/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1778/32768       17780/327680   ( 5.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         37146/65536       74292/131072   (56.7%) 
+cubemapsamples           7/1024          112/16384    ( 0.7%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    31289844/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       66870/16777216 ( 0.4%) 
+entdata               [variable]       79213/393216   (20.1%) 
+LDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+HDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+LDR leaf ambient      4474/65536      125272/1835008  ( 6.8%) 
+HDR leaf ambient      1310/65536       36680/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27992    ( 0.0%) 
+pakfile               [variable]      712047/0        ( 0.0%) 
+physics               [variable]     1155531/4194304  (27.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 42920
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+55 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+Can't find surfaceprop stone for material STORMY/PAVEMENT_01, using default
+Can't find surfaceprop clay for material TILE/FLOOR05, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/da_brewery/wood/woodfloor002_178_-364_152!!!
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2694 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1155531 bytes)
+Error! To use model "models/player/wish.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/wish.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6785 texinfos to 4059
+Reduced 126 texdatas to 105 (4303 bytes to 3817)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 514 portalclusters
+1501 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6846 visible clusters (3.89%)
+Total clusters visible: 175942
+Average clusters visible: 342
+Building PAS...
+Average clusters audible: 469
+visdatasize:66870  compressed from 74016
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+14176 faces
+16 degenerate faces
+256806 square feet [36980200.00 square inches]
+4 Displacements
+9735 Square Feet [1401898.63 Square Inches]
+14160 patches before subdivision
+14160 patches after subdivision
+53 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3703335, max 1918
+transfer lists:  28.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61257, 51507, 37947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11336, 8271, 5272)
+Build Patch/Sample Hash Table(s).....Done<0.0730 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes               2458/8192        29496/98304    (30.0%) 
+brushsides           19032/65536      152256/524288   (29.0%) 
+planes               13112/65536      262240/1310720  (20.0%) 
+vertexes             22423/65536      269076/786432   (34.2%) 
+nodes                 1273/65536       40736/2097152  ( 1.9%) 
+texinfos              4059/12288      292248/884736   (33.0%) 
+texdata                105/2048         3360/65536    ( 5.1%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts            1156/0           23120/0        ( 0.0%) 
+disp_tris             2048/0            4096/0        ( 0.0%) 
+disp_lmsamples      104008/0          104008/0        ( 0.0%) 
+faces                14176/65536      793856/3670016  (21.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8733/65536      489048/3670016  (13.3%) 
+leaves                1310/65536       41920/2097152  ( 2.0%) 
+leaffaces            19343/65536       38686/131072   (29.5%) 
+leafbrushes           4049/65536        8098/131072   ( 6.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           106255/512000     425020/2048000  (20.8%) 
+edges                65021/256000     260084/1024000  (25.4%) 
+LDR worldlights         53/8192         4664/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1778/32768       17780/327680   ( 5.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         37146/65536       74292/131072   (56.7%) 
+cubemapsamples           7/1024          112/16384    ( 0.7%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    31289844/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       66870/16777216 ( 0.4%) 
+entdata               [variable]       81813/393216   (20.8%) 
+LDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+HDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+LDR leaf ambient      4474/65536      125272/1835008  ( 6.8%) 
+HDR leaf ambient      1310/65536       36680/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27992    ( 0.0%) 
+pakfile               [variable]      712047/0        ( 0.0%) 
+physics               [variable]     1155531/4194304  (27.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 42920
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+53 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+Can't find surfaceprop stone for material STORMY/PAVEMENT_01, using default
+Can't find surfaceprop clay for material TILE/FLOOR05, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/da_brewery/wood/woodfloor002_178_-364_152!!!
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2694 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1155531 bytes)
+Error! To use model "models/player/wish.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/wish.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6785 texinfos to 4059
+Reduced 126 texdatas to 105 (4303 bytes to 3817)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+ 514 portalclusters
+1501 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6846 visible clusters (3.89%)
+Total clusters visible: 175942
+Average clusters visible: 342
+Building PAS...
+Average clusters audible: 469
+visdatasize:66870  compressed from 74016
+writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+14176 faces
+16 degenerate faces
+256806 square feet [36980200.00 square inches]
+4 Displacements
+9735 Square Feet [1401898.63 Square Inches]
+14160 patches before subdivision
+14160 patches after subdivision
+53 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3703335, max 1918
+transfer lists:  28.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61257, 51507, 37947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11336, 8271, 5272)
+Build Patch/Sample Hash Table(s).....Done<0.0731 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes               2458/8192        29496/98304    (30.0%) 
+brushsides           19032/65536      152256/524288   (29.0%) 
+planes               13112/65536      262240/1310720  (20.0%) 
+vertexes             22423/65536      269076/786432   (34.2%) 
+nodes                 1273/65536       40736/2097152  ( 1.9%) 
+texinfos              4059/12288      292248/884736   (33.0%) 
+texdata                105/2048         3360/65536    ( 5.1%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts            1156/0           23120/0        ( 0.0%) 
+disp_tris             2048/0            4096/0        ( 0.0%) 
+disp_lmsamples      104008/0          104008/0        ( 0.0%) 
+faces                14176/65536      793856/3670016  (21.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8733/65536      489048/3670016  (13.3%) 
+leaves                1310/65536       41920/2097152  ( 2.0%) 
+leaffaces            19343/65536       38686/131072   (29.5%) 
+leafbrushes           4049/65536        8098/131072   ( 6.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           106255/512000     425020/2048000  (20.8%) 
+edges                65021/256000     260084/1024000  (25.4%) 
+LDR worldlights         53/8192         4664/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1778/32768       17780/327680   ( 5.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         37146/65536       74292/131072   (56.7%) 
+cubemapsamples           7/1024          112/16384    ( 0.7%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    31289844/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       66870/16777216 ( 0.4%) 
+entdata               [variable]       81809/393216   (20.8%) 
+LDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+HDR ambient table     1310/65536        5240/262144   ( 2.0%) 
+LDR leaf ambient      4474/65536      125272/1835008  ( 6.8%) 
+HDR leaf ambient      1310/65536       36680/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27992    ( 0.0%) 
+pakfile               [variable]      712047/0        ( 0.0%) 
+physics               [variable]     1155531/4194304  (27.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 42920
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+49 seconds elapsed
