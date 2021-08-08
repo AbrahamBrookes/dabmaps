@@ -9516,3 +9516,215 @@ Level flags = 0
 Total triangle count: 42920
 Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
 49 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.vmf
+Can't find surfaceprop stone for material STORMY/PAVEMENT_01, using default
+Can't find surfaceprop clay for material TILE/FLOOR05, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/signs/emdbrewer.vmt
+LightmappedGeneric, 
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/da_brewery/wood/woodfloor002_178_-364_152!!!
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+KeyValues Error: RecursiveLoadFromBuffer:  got } in key in file materials/SIGNS/EMDBREWER.vmt
+LightmappedGeneric, 
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-448.00 -352.00 182.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 -1024.0 322.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -724.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -504.0 284.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -804.0 284.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -724.0 444.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -724.0 618.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -212.0 -128.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -212.0 -96.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2710 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1193375 bytes)
+Error! To use model "models/player/wish.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/wish.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6912 texinfos to 4426
+Reduced 124 texdatas to 105 (4209 bytes to 3770)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+LoadPortals: couldn't read c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+No vis information, direct lighting only.
+16048 faces
+17 degenerate faces
+330831 square feet [47639696.00 square inches]
+4 Displacements
+9735 Square Feet [1401898.63 Square Inches]
+53 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0882 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  38/1024         1824/49152    ( 3.7%) 
+brushes               2478/8192        29736/98304    (30.2%) 
+brushsides           19085/65536      152680/524288   (29.1%) 
+planes               13012/65536      260240/1310720  (19.9%) 
+vertexes             25180/65536      302160/786432   (38.4%) 
+nodes                 1889/65536       60448/2097152  ( 2.9%) 
+texinfos              4426/12288      318672/884736   (36.0%) 
+texdata                105/2048         3360/65536    ( 5.1%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts            1156/0           23120/0        ( 0.0%) 
+disp_tris             2048/0            4096/0        ( 0.0%) 
+disp_lmsamples      104008/0          104008/0        ( 0.0%) 
+faces                16048/65536      898688/3670016  (24.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             9314/65536      521584/3670016  (14.2%) 
+leaves                1928/65536       61696/2097152  ( 2.9%) 
+leaffaces            22027/65536       44054/131072   (33.6%) 
+leafbrushes           4307/65536        8614/131072   ( 6.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           117668/512000     470672/2048000  (23.0%) 
+edges                71571/256000     286284/1024000  (28.0%) 
+LDR worldlights         53/8192         4664/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1986/32768       19860/327680   ( 6.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         41478/65536       82956/131072   (63.3%) 
+cubemapsamples           7/1024          112/16384    ( 0.7%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    33627644/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       78982/393216   (20.1%) 
+LDR ambient table     1928/65536        7712/262144   ( 2.9%) 
+HDR ambient table     1928/65536        7712/262144   ( 2.9%) 
+LDR leaf ambient      9781/65536      273868/1835008  (14.9%) 
+HDR leaf ambient      1928/65536       53984/1835008  ( 2.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27638    ( 0.0%) 
+pakfile               [variable]      711042/0        ( 0.0%) 
+physics               [variable]     1193375/4194304  (28.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 48265
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_brewery\da_brewery.bsp
+52 seconds elapsed
