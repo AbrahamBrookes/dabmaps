@@ -1,0 +1,7 @@
+
+$cbox 0 0 0 0 0 0
+
+$bbox -2.04 -15.545 -5.476 1.51 30.739 5.575
+
+$hboxset "center"
+$hbox 0 "DABBiped.RHandWeapon" -14.82 -3.28 -2.04 30.5 5.44 1.51

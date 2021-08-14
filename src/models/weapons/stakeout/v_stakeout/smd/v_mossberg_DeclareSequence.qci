@@ -1,0 +1,13 @@
+// Created by Crowbar 0.71
+
+$declaresequence "idle"
+$declaresequence "draw"
+$declaresequence "reload"
+$declaresequence "reload2"
+$declaresequence "reload3"
+$declaresequence "shoot1"
+$declaresequence "shoot2"
+$declaresequence "shoot3"
+$declaresequence "brawl1"
+$declaresequence "brawl2"
+$declaresequence "brawl3"

@@ -1,0 +1,109 @@
+
+$sequence "idle" {
+	"v_mossberg_anims\idle.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 2
+	fadeout 0.2
+	fps 20
+	loop
+}
+
+$sequence "draw" {
+	"v_mossberg_anims\draw.smd"
+	activity "ACT_VM_DRAW" 1
+	{ event AE_CL_PLAYSOUND 2 "Weapon_Mossberg.Draw" }
+	fadein 0.2
+	fadeout 2
+	snap
+	fps 20
+}
+
+$sequence "reload" {
+	"v_mossberg_anims\reload.smd"
+	activity "ACT_SHOTGUN_RELOAD_START" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "reload2" {
+	"v_mossberg_anims\reload2.smd"
+	activity "ACT_VM_RELOAD" 1
+	{ event AE_CL_PLAYSOUND 7 "Weapon_Mossberg.Insertshell" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 40
+	loop
+}
+
+$sequence "reload3" {
+	"v_mossberg_anims\reload3.smd"
+	activity "ACT_SHOTGUN_RELOAD_FINISH" 1
+	{ event AE_CL_PLAYSOUND 11 "Weapon_Mossberg.Pump" }
+	fadein 0.2
+	fadeout 2
+	snap
+	fps 25
+}
+
+$sequence "shoot1" {
+	"v_mossberg_anims\shoot1.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event AE_CLIENT_EFFECT_ATTACH 0 "EjectBrass_12Gauge eject 50" }
+	{ event AE_CL_PLAYSOUND 9 "Weapon_Mossberg.Pump" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "shoot2" {
+	"v_mossberg_anims\shoot2.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event AE_CLIENT_EFFECT_ATTACH 0 "EjectBrass_12Gauge eject 50" }
+	{ event AE_CL_PLAYSOUND 9 "Weapon_Mossberg.Pump" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "shoot3" {
+	"v_mossberg_anims\shoot3.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event AE_CLIENT_EFFECT_ATTACH 0 "EjectBrass_12Gauge eject 50" }
+	{ event AE_CL_PLAYSOUND 9 "Weapon_Mossberg.Pump" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "brawl1" {
+	"v_mossberg_anims\brawl1.smd"
+	activity "ACT_DA_VM_BRAWL" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$sequence "brawl2" {
+	"v_mossberg_anims\brawl2.smd"
+	activity "ACT_DA_VM_BRAWL" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$sequence "brawl3" {
+	"v_mossberg_anims\brawl3.smd"
+	activity "ACT_DA_VM_BRAWL" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
