@@ -79,16 +79,21 @@ $bonemerge "DABBiped.LHandWeapon"
 
 $includemodel "player/shared.mdl"
 
+
+//$include "weightlists.qci"
+
+$ikchain "lhand" "DABBiped.LHand" knee 0.707 0.707 0
+
+
 $sequence "bomber_pose" {
 	"anims\bomber_pose.smd"
 }
 
 
-$animation "a_akimbo_dive_float_n" "anims\a_akimbo_dive_float_n.smd" {
-	walkframe 1 LX LY
-}
+//////////////////////// akimbo pistol dives and slides
 
 $animation "a_akimbo_dive_n" "anims\a_akimbo_dive_n.smd" {
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 46 46 target 0
 	walkframe 1 LX LY
 	walkframe 2 LX LY
 	walkframe 4 LX LY
@@ -105,12 +110,66 @@ $animation "a_akimbo_dive_n" "anims\a_akimbo_dive_n.smd" {
 	walkframe 46 LX LY
 }
 
-$animation "a_akimbo_diveslide_n" "anims\a_akimbo_dive_float_n.smd" {
+$animation "a_akimbo_dive_float_n" "anims\a_akimbo_dive_float_n.smd" {
+	walkframe 1 LX LY
+}
+
+$animation "a_akimbo_prone_n" "anims\a_akimbo_diveslide_n.smd" {
+	fps 60
+	loop
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+}
+
+$animation "a_akimbo_diveslide_n" "anims\a_akimbo_diveslide_n.smd" {
 	fps 120
 	loop
 }
 
 
+
+//////////////////////// one hand pistol dives and slides
+
+$animation "a_pistol_dive_float_n" "anims\a_pistol_dive_float_n.smd" {
+	fps 60
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+}
+
+
+$animation "a_pistol_dive_n" "anims\a_pistol_dive_n.smd" {
+	fps 60
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 46 46 target 0
+	walkframe 1 LX LY
+	walkframe 2 LX LY
+	walkframe 4 LX LY
+	walkframe 6 LX LY
+	walkframe 8 LX LY
+	walkframe 10 LX LY
+	walkframe 15 LX LY
+	walkframe 20 LX LY
+	walkframe 25 LX LY
+	walkframe 30 LX LY
+	walkframe 35 LX LY
+	walkframe 40 LX LY
+	walkframe 45 LX LY
+	walkframe 46 LX LY
+}
+
+
+$animation "a_diveslide_n" "anims\a_pistol_dive_float_n.smd" {
+	fps 120
+	loop
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 30 30 target 0
+}
+
+
+$animation "a_prone_n" "anims\a_pistol_dive_float_n.smd" {
+	fps 60
+	loop
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+}
+
+
+/////////////////////////////////// fix akimbo wallflip
 
 $animation "a_akimbo_wall_flip_se" "shared_anims\a_wall_flip_se.smd" {
 	fps 60
@@ -143,6 +202,18 @@ $animation "a_akimbo_wall_flip_sw" "shared_anims\a_wall_flip_sw.smd" {
 $animation "a_akimbo_wall_flip_s" "shared_anims\a_wall_flip_s.smd" {
 	fps 60
 }
+
+
+
+
+
+//$include "rifle_anims.qci"
+
+//$include "mossberg_anims.qci"
+
+
+
+
 
 $collisionjoints "bomber_physics.smd"
 {
