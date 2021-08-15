@@ -1,0 +1,1702 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (568.00 96.00 6.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3584.0 -2048.0 552.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 -1536.0 552.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3600.0 -1024.0 764.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3096.0 -1024.0 764.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3600.0 -1024.0 148.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3096.0 -1024.0 148.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3080.0 -1024.0 552.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 -1536.0 552.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 928 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (564513 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2541 texinfos to 1333
+Reduced 106 texdatas to 87 (4705 bytes to 3900)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+LoadPortals: couldn't read c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+No vis information, direct lighting only.
+4541 faces
+11 degenerate faces
+183890 square feet [26480270.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+56 direct lights
+0...1...2...3...4...5...6
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 928 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (564481 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2541 texinfos to 1313
+Reduced 106 texdatas to 86 (4705 bytes to 3879)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 318 portalclusters
+ 699 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 419 visible clusters (1.78%)
+Total clusters visible: 23549
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 233
+visdatasize:24121  compressed from 25440
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4280 faces
+10 degenerate faces
+164749 square feet [23723986.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4270 patches before subdivision
+92040 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10898490, max 687
+transfer lists:  83.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(783939, 759914, 680617)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(266725, 280877, 264170)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(105141, 118023, 115456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(45851, 53797, 53983)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(21403, 25815, 26243)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10418, 12774, 13046)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5198, 6435, 6567)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2632, 3277, 3332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1344, 1680, 1698)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(690, 865, 869)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(356, 446, 445)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(184, 231, 229)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(95, 119, 117)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(49, 62, 60)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(25, 32, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(13, 17, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(7, 9, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(4, 4, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0149 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes               1067/8192        12804/98304    (13.0%) 
+brushsides            8745/65536       69960/524288   (13.3%) 
+planes                6920/65536      138400/1310720  (10.6%) 
+vertexes              7444/65536       89328/786432   (11.4%) 
+nodes                 1517/65536       48544/2097152  ( 2.3%) 
+texinfos              1313/12288       94536/884736   (10.7%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4280/65536      239680/3670016  ( 6.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2701/65536      151256/3670016  ( 4.1%) 
+leaves                1532/65536       49024/2097152  ( 2.3%) 
+leaffaces             4807/65536        9614/131072   ( 7.3%) 
+leafbrushes           1654/65536        3308/131072   ( 2.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32139/512000     128556/2048000  ( 6.3%) 
+edges                19839/256000      79356/1024000  ( 7.7%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            557/32768        5570/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10599/65536       21198/131072   (16.2%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4175212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       24121/16777216 ( 0.1%) 
+entdata               [variable]       54265/393216   (13.8%) 
+LDR ambient table     1532/65536        6128/262144   ( 2.3%) 
+HDR ambient table     1532/65536        6128/262144   ( 2.3%) 
+LDR leaf ambient      5704/65536      159712/1835008  ( 8.7%) 
+HDR leaf ambient      1532/65536       42896/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/37058    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      564481/4194304  (13.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12817
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 924 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (566721 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2558 texinfos to 1325
+Reduced 108 texdatas to 88 (4762 bytes to 3936)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 324 portalclusters
+ 706 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 398 visible clusters (1.75%)
+Total clusters visible: 22754
+Average clusters visible: 70
+Building PAS...
+Average clusters audible: 231
+visdatasize:24486  compressed from 31104
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4304 faces
+10 degenerate faces
+163708 square feet [23574042.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4294 patches before subdivision
+91138 patches after subdivision
+51 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10773112, max 687
+transfer lists:  82.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(519031, 439828, 331124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(151010, 137775, 109810)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(50521, 49843, 42581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(19071, 20224, 18367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7998, 8971, 8505)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3625, 4225, 4107)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1731, 2067, 2033)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(853, 1034, 1021)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(429, 525, 517)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(218, 268, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(112, 138, 135)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(58, 71, 69)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(30, 37, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(15, 19, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(8, 10, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 5, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0147 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes               1073/8192        12876/98304    (13.1%) 
+brushsides            8779/65536       70232/524288   (13.4%) 
+planes                6932/65536      138640/1310720  (10.6%) 
+vertexes              7475/65536       89700/786432   (11.4%) 
+nodes                 1530/65536       48960/2097152  ( 2.3%) 
+texinfos              1325/12288       95400/884736   (10.8%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4304/65536      241024/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2719/65536      152264/3670016  ( 4.1%) 
+leaves                1545/65536       49440/2097152  ( 2.4%) 
+leaffaces             4875/65536        9750/131072   ( 7.4%) 
+leafbrushes           1672/65536        3344/131072   ( 2.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32309/512000     129236/2048000  ( 6.3%) 
+edges                19950/256000      79800/1024000  ( 7.8%) 
+LDR worldlights         51/8192         4488/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            551/32768        5510/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10497/65536       20994/131072   (16.0%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4154788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       24486/16777216 ( 0.1%) 
+entdata               [variable]       52539/393216   (13.4%) 
+LDR ambient table     1545/65536        6180/262144   ( 2.4%) 
+HDR ambient table     1545/65536        6180/262144   ( 2.4%) 
+LDR leaf ambient      5735/65536      160580/1835008  ( 8.8%) 
+HDR leaf ambient      1545/65536       43260/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/37182    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      566721/4194304  (13.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12867
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 928 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (566721 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2558 texinfos to 1325
+Reduced 108 texdatas to 88 (4762 bytes to 3936)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 321 portalclusters
+ 704 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 393 visible clusters (1.75%)
+Total clusters visible: 22462
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 228
+visdatasize:24128  compressed from 30816
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4299 faces
+10 degenerate faces
+163731 square feet [23577306.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4289 patches before subdivision
+91111 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10758647, max 687
+transfer lists:  82.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(399649, 292741, 166367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(99886, 74829, 41154)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(27211, 21145, 11840)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8038, 6645, 4003)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2621, 2353, 1570)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(954, 937, 690)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(386, 411, 325)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(170, 193, 160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(80, 94, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(39, 47, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 24, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(10, 12, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0146 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes               1073/8192        12876/98304    (13.1%) 
+brushsides            8779/65536       70232/524288   (13.4%) 
+planes                6932/65536      138640/1310720  (10.6%) 
+vertexes              7473/65536       89676/786432   (11.4%) 
+nodes                 1524/65536       48768/2097152  ( 2.3%) 
+texinfos              1325/12288       95400/884736   (10.8%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4299/65536      240744/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2719/65536      152264/3670016  ( 4.1%) 
+leaves                1539/65536       49248/2097152  ( 2.3%) 
+leaffaces             4868/65536        9736/131072   ( 7.4%) 
+leafbrushes           1672/65536        3344/131072   ( 2.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32295/512000     129180/2048000  ( 6.3%) 
+edges                19956/256000      79824/1024000  ( 7.8%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            554/32768        5540/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10560/65536       21120/131072   (16.1%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4154720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       24128/16777216 ( 0.1%) 
+entdata               [variable]       54394/393216   (13.8%) 
+LDR ambient table     1539/65536        6156/262144   ( 2.3%) 
+HDR ambient table     1539/65536        6156/262144   ( 2.3%) 
+LDR leaf ambient      5748/65536      160944/1835008  ( 8.8%) 
+HDR leaf ambient      1539/65536       43092/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/37184    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      566721/4194304  (13.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12863
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 928 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (566721 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2558 texinfos to 1325
+Reduced 108 texdatas to 88 (4762 bytes to 3936)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 321 portalclusters
+ 704 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 377 visible clusters (1.68%)
+Total clusters visible: 22442
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 228
+visdatasize:24128  compressed from 30816
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4299 faces
+10 degenerate faces
+163731 square feet [23577306.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4289 patches before subdivision
+91111 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10758647, max 687
+transfer lists:  82.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(399649, 292741, 166367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(99886, 74829, 41154)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(27211, 21145, 11840)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8038, 6645, 4003)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2621, 2353, 1570)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(954, 937, 690)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(386, 411, 325)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(170, 193, 160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(80, 94, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(39, 47, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 24, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(10, 12, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0162 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes               1073/8192        12876/98304    (13.1%) 
+brushsides            8779/65536       70232/524288   (13.4%) 
+planes                6932/65536      138640/1310720  (10.6%) 
+vertexes              7473/65536       89676/786432   (11.4%) 
+nodes                 1524/65536       48768/2097152  ( 2.3%) 
+texinfos              1325/12288       95400/884736   (10.8%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4299/65536      240744/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2719/65536      152264/3670016  ( 4.1%) 
+leaves                1539/65536       49248/2097152  ( 2.3%) 
+leaffaces             4868/65536        9736/131072   ( 7.4%) 
+leafbrushes           1672/65536        3344/131072   ( 2.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32295/512000     129180/2048000  ( 6.3%) 
+edges                19956/256000      79824/1024000  ( 7.8%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            554/32768        5540/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10560/65536       21120/131072   (16.1%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4154720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       24128/16777216 ( 0.1%) 
+entdata               [variable]       54394/393216   (13.8%) 
+LDR ambient table     1539/65536        6156/262144   ( 2.3%) 
+HDR ambient table     1539/65536        6156/262144   ( 2.3%) 
+LDR leaf ambient      5748/65536      160944/1835008  ( 8.8%) 
+HDR leaf ambient      1539/65536       43092/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/37184    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      566721/4194304  (13.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12863
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 928 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (566409 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2557 texinfos to 1323
+Reduced 108 texdatas to 88 (4762 bytes to 3936)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 324 portalclusters
+ 715 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 424 visible clusters (1.90%)
+Total clusters visible: 22308
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 228
+visdatasize:24679  compressed from 31104
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4297 faces
+10 degenerate faces
+164031 square feet [23620566.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4287 patches before subdivision
+91565 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10778499, max 687
+transfer lists:  82.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(399758, 292657, 166180)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(99899, 74782, 41096)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(27227, 21137, 11826)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8043, 6642, 3999)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2623, 2352, 1569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(954, 937, 689)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(386, 411, 325)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(170, 193, 160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(80, 94, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(39, 47, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 24, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(10, 12, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0148 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes               1072/8192        12864/98304    (13.1%) 
+brushsides            8772/65536       70176/524288   (13.4%) 
+planes                6928/65536      138560/1310720  (10.6%) 
+vertexes              7473/65536       89676/786432   (11.4%) 
+nodes                 1530/65536       48960/2097152  ( 2.3%) 
+texinfos              1323/12288       95256/884736   (10.8%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4297/65536      240632/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2714/65536      151984/3670016  ( 4.1%) 
+leaves                1545/65536       49440/2097152  ( 2.4%) 
+leaffaces             4861/65536        9722/131072   ( 7.4%) 
+leafbrushes           1685/65536        3370/131072   ( 2.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32266/512000     129064/2048000  ( 6.3%) 
+edges                19938/256000      79752/1024000  ( 7.8%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            554/32768        5540/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10587/65536       21174/131072   (16.2%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4148488/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       24679/16777216 ( 0.1%) 
+entdata               [variable]       54394/393216   (13.8%) 
+LDR ambient table     1545/65536        6180/262144   ( 2.4%) 
+HDR ambient table     1545/65536        6180/262144   ( 2.4%) 
+LDR leaf ambient      5844/65536      163632/1835008  ( 8.9%) 
+HDR leaf ambient      1545/65536       43260/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/37194    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      566409/4194304  (13.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12856
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...Wrote C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.lin
+Areaportal leak ! File: C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.lin 
+Brush 187292: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 950 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (574687 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2625 texinfos to 1330
+Reduced 113 texdatas to 91 (4857 bytes to 3987)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 443 portalclusters
+ 916 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 330 visible clusters (0.82%)
+Total clusters visible: 40163
+Average clusters visible: 90
+Building PAS...
+Average clusters audible: 323
+visdatasize:43934  compressed from 49616
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4486 faces
+9 degenerate faces
+168580 square feet [24275662.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4477 patches before subdivision
+95345 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11688260, max 699
+transfer lists:  89.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(412372, 303191, 173484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(103772, 77965, 43092)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(28433, 22108, 12381)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8429, 6948, 4161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2750, 2452, 1620)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(997, 971, 706)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(401, 422, 331)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(176, 197, 162)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 96, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 48, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 24, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(10, 12, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0149 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes               1126/8192        13512/98304    (13.7%) 
+brushsides            9186/65536       73488/524288   (14.0%) 
+planes                7108/65536      142160/1310720  (10.8%) 
+vertexes              7643/65536       91716/786432   (11.7%) 
+nodes                 1667/65536       53344/2097152  ( 2.5%) 
+texinfos              1330/12288       95760/884736   (10.8%) 
+texdata                 91/2048         2912/65536    ( 4.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4486/65536      251216/3670016  ( 6.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2737/65536      153272/3670016  ( 4.2%) 
+leaves                1684/65536       53888/2097152  ( 2.6%) 
+leaffaces             5553/65536       11106/131072   ( 8.5%) 
+leafbrushes           2009/65536        4018/131072   ( 3.1%) 
+areas                   21/256           168/2048     ( 8.2%) 
+surfedges            33110/512000     132440/2048000  ( 6.5%) 
+edges                20918/256000      83672/1024000  ( 8.2%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            531/32768        5310/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10026/65536       20052/131072   (15.3%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4216524/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       43934/16777216 ( 0.3%) 
+entdata               [variable]       58985/393216   (15.0%) 
+LDR ambient table     1684/65536        6736/262144   ( 2.6%) 
+HDR ambient table     1684/65536        6736/262144   ( 2.6%) 
+LDR leaf ambient      7318/65536      204904/1835008  (11.2%) 
+HDR leaf ambient      1684/65536       47152/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/37342    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      574687/4194304  (13.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 13219
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 950 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (574687 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2624 texinfos to 1330
+Reduced 113 texdatas to 91 (4857 bytes to 3987)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 440 portalclusters
+ 909 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 349 visible clusters (0.88%)
+Total clusters visible: 39789
+Average clusters visible: 90
+Building PAS...
+Average clusters audible: 321
+visdatasize:43291  compressed from 49280
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4480 faces
+9 degenerate faces
+168580 square feet [24275662.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4471 patches before subdivision
+95413 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11691298, max 699
+transfer lists:  89.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(412554, 303306, 173515)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(103838, 78006, 43103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(28451, 22119, 12384)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8433, 6950, 4161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2751, 2453, 1620)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(997, 971, 706)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(401, 422, 331)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(176, 197, 162)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 96, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 48, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 24, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(10, 12, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0149 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes               1125/8192        13500/98304    (13.7%) 
+brushsides            9178/65536       73424/524288   (14.0%) 
+planes                7104/65536      142080/1310720  (10.8%) 
+vertexes              7635/65536       91620/786432   (11.7%) 
+nodes                 1664/65536       53248/2097152  ( 2.5%) 
+texinfos              1330/12288       95760/884736   (10.8%) 
+texdata                 91/2048         2912/65536    ( 4.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4480/65536      250880/3670016  ( 6.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2737/65536      153272/3670016  ( 4.2%) 
+leaves                1681/65536       53792/2097152  ( 2.6%) 
+leaffaces             5546/65536       11092/131072   ( 8.5%) 
+leafbrushes           2009/65536        4018/131072   ( 3.1%) 
+areas                   21/256           168/2048     ( 8.2%) 
+surfedges            33082/512000     132328/2048000  ( 6.5%) 
+edges                20895/256000      83580/1024000  ( 8.2%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            531/32768        5310/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10026/65536       20052/131072   (15.3%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4212340/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       43291/16777216 ( 0.3%) 
+entdata               [variable]       58875/393216   (15.0%) 
+LDR ambient table     1681/65536        6724/262144   ( 2.6%) 
+HDR ambient table     1681/65536        6724/262144   ( 2.6%) 
+LDR leaf ambient      7319/65536      204932/1835008  (11.2%) 
+HDR leaf ambient      1681/65536       47068/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/37342    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      574687/4194304  (13.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 13203
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 950 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (574687 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2624 texinfos to 1330
+Reduced 113 texdatas to 91 (4857 bytes to 3987)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 439 portalclusters
+ 907 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 335 visible clusters (0.84%)
+Total clusters visible: 39660
+Average clusters visible: 90
+Building PAS...
+Average clusters audible: 320
+visdatasize:43144  compressed from 49168
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4478 faces
+9 degenerate faces
+168580 square feet [24275662.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4469 patches before subdivision
+95411 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11691279, max 699
+transfer lists:  89.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(412554, 303306, 173515)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(103838, 78006, 43103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(28451, 22119, 12384)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8433, 6950, 4161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2751, 2453, 1620)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(997, 971, 706)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(401, 422, 331)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(176, 197, 162)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 96, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 48, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 24, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(10, 12, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0154 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes               1124/8192        13488/98304    (13.7%) 
+brushsides            9172/65536       73376/524288   (14.0%) 
+planes                7104/65536      142080/1310720  (10.8%) 
+vertexes              7633/65536       91596/786432   (11.6%) 
+nodes                 1663/65536       53216/2097152  ( 2.5%) 
+texinfos              1330/12288       95760/884736   (10.8%) 
+texdata                 91/2048         2912/65536    ( 4.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4478/65536      250768/3670016  ( 6.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2737/65536      153272/3670016  ( 4.2%) 
+leaves                1680/65536       53760/2097152  ( 2.6%) 
+leaffaces             5542/65536       11084/131072   ( 8.5%) 
+leafbrushes           2008/65536        4016/131072   ( 3.1%) 
+areas                   20/256           160/2048     ( 7.8%) 
+surfedges            33074/512000     132296/2048000  ( 6.5%) 
+edges                20875/256000      83500/1024000  ( 8.2%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            531/32768        5310/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10041/65536       20082/131072   (15.3%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4212300/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       43144/16777216 ( 0.3%) 
+entdata               [variable]       58765/393216   (14.9%) 
+LDR ambient table     1680/65536        6720/262144   ( 2.6%) 
+HDR ambient table     1680/65536        6720/262144   ( 2.6%) 
+LDR leaf ambient      7318/65536      204904/1835008  (11.2%) 
+HDR leaf ambient      1680/65536       47040/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/37342    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      574687/4194304  (13.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 13199
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 950 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (574687 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2624 texinfos to 1330
+Reduced 113 texdatas to 91 (4857 bytes to 3987)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 439 portalclusters
+ 907 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 342 visible clusters (0.86%)
+Total clusters visible: 39667
+Average clusters visible: 90
+Building PAS...
+Average clusters audible: 320
+visdatasize:43144  compressed from 49168
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4478 faces
+9 degenerate faces
+168580 square feet [24275662.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4469 patches before subdivision
+95411 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11662830, max 699
+transfer lists:  89.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(406871, 302084, 172367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(102292, 77600, 42756)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(28084, 21982, 12274)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8354, 6900, 4122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2736, 2432, 1603)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(996, 961, 699)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(402, 418, 328)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(177, 195, 160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(83, 95, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 47, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 24, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(10, 12, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0156 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes               1124/8192        13488/98304    (13.7%) 
+brushsides            9172/65536       73376/524288   (14.0%) 
+planes                7104/65536      142080/1310720  (10.8%) 
+vertexes              7633/65536       91596/786432   (11.6%) 
+nodes                 1663/65536       53216/2097152  ( 2.5%) 
+texinfos              1330/12288       95760/884736   (10.8%) 
+texdata                 91/2048         2912/65536    ( 4.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4478/65536      250768/3670016  ( 6.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2737/65536      153272/3670016  ( 4.2%) 
+leaves                1680/65536       53760/2097152  ( 2.6%) 
+leaffaces             5542/65536       11084/131072   ( 8.5%) 
+leafbrushes           2008/65536        4016/131072   ( 3.1%) 
+areas                   20/256           160/2048     ( 7.8%) 
+surfedges            33074/512000     132296/2048000  ( 6.5%) 
+edges                20875/256000      83500/1024000  ( 8.2%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            531/32768        5310/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10041/65536       20082/131072   (15.3%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4212300/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       43144/16777216 ( 0.3%) 
+entdata               [variable]       58773/393216   (14.9%) 
+LDR ambient table     1680/65536        6720/262144   ( 2.6%) 
+HDR ambient table     1680/65536        6720/262144   ( 2.6%) 
+LDR leaf ambient      7318/65536      204904/1835008  (11.2%) 
+HDR leaf ambient      1680/65536       47040/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/38664    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      574687/4194304  (13.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 13199
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.vmf
+material "ads/adgroup_01a" not found.
+Material not found!: ADS/ADGROUP_01A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "concrete/urban_road_01a" not found.
+Material not found!: CONCRETE/URBAN_ROAD_01A
+Patching WVT material: maps/da_doubletrouble/nature/blenddirtgrass008b_lowfriction_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 950 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_07*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (575407 bytes)
+Error! prop_static using model "models/props_debris/concrete_spawnchunk001k.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_spawnchunk001k.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2627 texinfos to 1333
+Reduced 113 texdatas to 91 (4857 bytes to 3987)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.prt
+ 450 portalclusters
+ 932 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 416 visible clusters (0.99%)
+Total clusters visible: 41936
+Average clusters visible: 93
+Building PAS...
+Average clusters audible: 332
+visdatasize:45627  compressed from 57600
+writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+Error! Invalid VTX file checksum: -1367837773, expected 1527488050 "models/props_foliage/shrub_01a.dx80.vtx"
+Error! Invalid VTX file checksum: 1279845925, expected 1285899029 "models/props_lab/walllight001a.dx80.vtx"
+4491 faces
+9 degenerate faces
+168134 square feet [24211402.00 square inches]
+7 Displacements
+2128 Square Feet [306527.88 Square Inches]
+4482 patches before subdivision
+95108 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11696526, max 699
+transfer lists:  89.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(406821, 302449, 172701)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(102278, 77684, 42836)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(28071, 21992, 12288)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8346, 6898, 4124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2732, 2430, 1603)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(994, 961, 699)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(401, 418, 327)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(176, 195, 160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 95, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 47, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 24, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(10, 12, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0148 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes               1127/8192        13524/98304    (13.8%) 
+brushsides            9190/65536       73520/524288   (14.0%) 
+planes                7104/65536      142080/1310720  (10.8%) 
+vertexes              7645/65536       91740/786432   (11.7%) 
+nodes                 1690/65536       54080/2097152  ( 2.6%) 
+texinfos              1333/12288       95976/884736   (10.8%) 
+texdata                 91/2048         2912/65536    ( 4.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts             983/0           19660/0        ( 0.0%) 
+disp_tris             1664/0            3328/0        ( 0.0%) 
+disp_lmsamples       16681/0           16681/0        ( 0.0%) 
+faces                 4491/65536      251496/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2743/65536      153608/3670016  ( 4.2%) 
+leaves                1707/65536       54624/2097152  ( 2.6%) 
+leaffaces             5577/65536       11154/131072   ( 8.5%) 
+leafbrushes           2028/65536        4056/131072   ( 3.1%) 
+areas                   20/256           160/2048     ( 7.8%) 
+surfedges            33143/512000     132572/2048000  ( 6.5%) 
+edges                20935/256000      83740/1024000  ( 8.2%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            529/32768        5290/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9981/65536       19962/131072   (15.2%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     4214620/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       45627/16777216 ( 0.3%) 
+entdata               [variable]       58883/393216   (15.0%) 
+LDR ambient table     1707/65536        6828/262144   ( 2.6%) 
+HDR ambient table     1707/65536        6828/262144   ( 2.6%) 
+LDR leaf ambient      7455/65536      208740/1835008  (11.4%) 
+HDR leaf ambient      1707/65536       47796/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/40444    ( 0.0%) 
+pakfile               [variable]     1148560/0        ( 0.0%) 
+physics               [variable]      575407/4194304  (13.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 13218
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_doubletrouble\da_doubletrouble.bsp
+12 seconds elapsed
