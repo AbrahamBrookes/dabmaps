@@ -1,0 +1,122 @@
+// Created by Crowbar 0.42.0.0
+
+
+$ModelName "weapons/v_fal.mdl"
+
+$attachment "1" "WEAPON_root" 0.00 3.2 43 rotate -90 -90 0
+$attachment "eject" "WEAPON_root" -1.00 3.2 5.00 rotate -0 135 -90
+$attachment "ammo_1" "WEAPON_root" 0.00 5.00 -10.00 rotate -0 0 -90
+$Attachment "ammo_2" "WEAPON_root" 0 -7 5 rotate 0 0 0
+
+$scale 5
+$model sleeves "msh_sleeves.smd"
+
+$BodyGroup "body"
+{
+	studio "msh_fal.smd"
+}
+
+
+$SurfaceProp "default"
+
+$Contents "solid"
+
+$MaxEyeDeflection 90
+
+$CDMaterials "models\weapons\v_models\sleeves\"
+$CDMaterials "models\weapons\fal\"
+
+$CBox 0 0 0 0 0 0
+
+$BBox -8.112 -17.078 -18.018 43.206 8.929 0.137
+
+
+$Sequence "idle" {
+	"anims\idle.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	frames 60 120
+	fps 30
+	loop
+}
+
+$Sequence "draw" {
+	"anims\draw.smd"
+	activity "ACT_VM_DRAW" 1
+	{ event AE_CL_PLAYSOUND 0 "Weapon_Mossberg.Draw" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 43
+}
+
+$Sequence "reload" {
+	"anims\reload.smd"
+	activity "ACT_VM_RELOAD" 1
+	{ event AE_CL_PLAYSOUND 0 "Weapon_FAL.MagOut" }
+	{ event AE_CL_PLAYSOUND 42 "Weapon_FAL.MagIn" }
+	{ event AE_CL_PLAYSOUND 64 "Weapon_FAL.Deploy" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 35
+	
+}
+
+$Sequence "shoot1" {
+	"anims\shoot1.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event AE_CLIENT_EFFECT_ATTACH 0 "EjectBrass_762Nato eject 100" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 35
+}
+
+$Sequence "shoot2" {
+	"anims\shoot2.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event AE_CLIENT_EFFECT_ATTACH 0 "EjectBrass_762Nato eject 100" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 35
+}
+
+$Sequence "shoot3" {
+	"anims\shoot3.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event AE_CLIENT_EFFECT_ATTACH 0 "EjectBrass_762Nato eject 100" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 35
+}
+
+$Sequence "brawl1" {
+	"anims\melee.smd"
+	activity "ACT_DA_VM_BRAWL" 1
+	fadein 0.2
+	fadeout 1
+	snap
+	fps 50
+}
+
+$Sequence "brawl2" {
+	"anims\melee.smd"
+	activity "ACT_DA_VM_BRAWL" 1
+	fadein 0.2
+	fadeout 1
+	snap
+	fps 50
+}
+
+$Sequence "brawl3" {
+	"anims\melee.smd"
+	activity "ACT_DA_VM_BRAWL" 1
+	fadein 0.2
+	fadeout 1
+	snap
+	fps 50
+}
