@@ -43,7 +43,7 @@ $Contents "solid"
 $MaxEyeDeflection 90
 
 $CDMaterials "models\weapons\v_models\sleeves\"
-$CDMaterials "\models\m10"
+$CDMaterials "\models\weapons\m10"
 
 $CBox 0 0 0 0 0 0
 
