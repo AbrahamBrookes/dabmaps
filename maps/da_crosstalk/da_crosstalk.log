@@ -145,3 +145,966 @@ Level flags = 0
 Total triangle count: 45400
 Writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
 53 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.vmf
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02_DARK, using default
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2130 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1466486 bytes)
+Static prop models/props_construction/vent_bracer_001.mdl outside the map (1470.00, 2542.00, 5269.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6961 texinfos to 4638
+Reduced 445 texdatas to 390 (22258 bytes to 20235)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+5 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt
+1157 portalclusters
+3167 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.vmf
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02_DARK, using default
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 2180 detail faces...done (2)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (1494801 bytes)
+Static prop models/props_construction/vent_bracer_001.mdl outside the map (1470.00, 2542.00, 5269.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7135 texinfos to 4675
+Reduced 450 texdatas to 394 (22347 bytes to 20302)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+7 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt
+1253 portalclusters
+3309 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3865 visible clusters (1.31%)
+Total clusters visible: 296041
+Average clusters visible: 236
+Building PAS...
+Average clusters audible: 1128
+visdatasize:308635  compressed from 400960
+writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+14177 faces
+11 degenerate faces
+7191201 square feet [1035532928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+14166 patches before subdivision
+213854 patches after subdivision
+123 direct lights
+0...1...2...3...4...5...6...7...8...9... warning - face vectors parallel to face normal. bad lighting will be produced
+no samples 14126
+100...1...2...3...4...5...6...7...8...9...10transfers 38456101, max 3192
+transfer lists: 293.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(669524, 664982, 518250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(149499, 147151, 113859)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(40457, 39124, 29994)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(11953, 11331, 8624)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3973, 3669, 2758)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1434, 1287, 955)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(554, 483, 352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(224, 189, 135)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(93, 76, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 32, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(17, 13, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0629 sec>
+0...1...2...3...4...5...6...7...8...9... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  59/1024         2832/49152    ( 5.8%) 
+brushes               4036/8192        48432/98304    (49.3%) 
+brushsides           27142/65536      217136/524288   (41.4%) 
+planes               10178/65536      203560/1310720  (15.5%) 
+vertexes             27418/65536      329016/786432   (41.8%) 
+nodes                 3338/65536      106816/2097152  ( 5.1%) 
+texinfos              4675/12288      336600/884736   (38.0%) 
+texdata                394/2048        12608/65536    (19.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                14177/65536      793912/3670016  (21.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             9561/65536      535416/3670016  (14.6%) 
+leaves                3398/65536      108736/2097152  ( 5.2%) 
+leaffaces            21348/65536       42696/131072   (32.6%) 
+leafbrushes          10170/65536       20340/131072   (15.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           112271/512000     449084/2048000  (21.9%) 
+edges                73307/256000     293228/1024000  (28.6%) 
+LDR worldlights        122/8192        10736/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2168/32768       21680/327680   ( 6.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         43761/65536       87522/131072   (66.8%) 
+cubemapsamples          37/1024          592/16384    ( 3.6%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    16656948/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      308635/16777216 ( 1.8%) 
+entdata               [variable]      108593/393216   (27.6%) 
+LDR ambient table     3398/65536       13592/262144   ( 5.2%) 
+HDR ambient table     3398/65536       13592/262144   ( 5.2%) 
+LDR leaf ambient     13730/65536      384440/1835008  (21.0%) 
+HDR leaf ambient      3398/65536       95144/1835008  ( 5.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/78408    ( 0.0%) 
+pakfile               [variable]     3246358/0        ( 0.0%) 
+physics               [variable]     1494801/4194304  (35.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 45593
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+1 minute, 13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.vmf
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02_DARK, using default
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 2180 detail faces...done (2)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (1494801 bytes)
+Static prop models/props_construction/vent_bracer_001.mdl outside the map (1470.00, 2542.00, 5269.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7135 texinfos to 4675
+Reduced 450 texdatas to 394 (22347 bytes to 20302)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+7 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt
+1253 portalclusters
+3309 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3908 visible clusters (1.32%)
+Total clusters visible: 296082
+Average clusters visible: 236
+Building PAS...
+Average clusters audible: 1128
+visdatasize:308635  compressed from 400960
+writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+14177 faces
+11 degenerate faces
+7191201 square feet [1035532928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+14166 patches before subdivision
+213854 patches after subdivision
+123 direct lights
+0...1...2...3...4...5...6...7...8...9... warning - face vectors parallel to face normal. bad lighting will be produced
+no samples 14126
+100...1...2...3...4...5...6...7...8...9...10transfers 38456101, max 3192
+transfer lists: 293.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(669523, 664982, 518250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(149499, 147151, 113859)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(40457, 39124, 29994)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(11953, 11331, 8624)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3973, 3669, 2758)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1434, 1287, 955)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(554, 483, 352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(224, 189, 135)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(93, 76, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 32, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(17, 13, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0623 sec>
+0...1...2...3...4...5...6...7...8...9... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  59/1024         2832/49152    ( 5.8%) 
+brushes               4036/8192        48432/98304    (49.3%) 
+brushsides           27142/65536      217136/524288   (41.4%) 
+planes               10178/65536      203560/1310720  (15.5%) 
+vertexes             27418/65536      329016/786432   (41.8%) 
+nodes                 3338/65536      106816/2097152  ( 5.1%) 
+texinfos              4675/12288      336600/884736   (38.0%) 
+texdata                394/2048        12608/65536    (19.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                14177/65536      793912/3670016  (21.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             9561/65536      535416/3670016  (14.6%) 
+leaves                3398/65536      108736/2097152  ( 5.2%) 
+leaffaces            21348/65536       42696/131072   (32.6%) 
+leafbrushes          10170/65536       20340/131072   (15.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           112271/512000     449084/2048000  (21.9%) 
+edges                73307/256000     293228/1024000  (28.6%) 
+LDR worldlights        122/8192        10736/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2168/32768       21680/327680   ( 6.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         43761/65536       87522/131072   (66.8%) 
+cubemapsamples          37/1024          592/16384    ( 3.6%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    16656948/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      308635/16777216 ( 1.8%) 
+entdata               [variable]      108593/393216   (27.6%) 
+LDR ambient table     3398/65536       13592/262144   ( 5.2%) 
+HDR ambient table     3398/65536       13592/262144   ( 5.2%) 
+LDR leaf ambient     13730/65536      384440/1835008  (21.0%) 
+HDR leaf ambient      3398/65536       95144/1835008  ( 5.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/78408    ( 0.0%) 
+pakfile               [variable]     3246358/0        ( 0.0%) 
+physics               [variable]     1494801/4194304  (35.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 45593
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+1 minute, 13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.vmf
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02_DARK, using default
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2138 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1481518 bytes)
+Error loading studio model "models/stormy/da_windowframe_02c.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_90deg.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02b.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_45deg.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02a.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_Y.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_grill.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_t.mdl"!
+Static prop models/props_construction/vent_bracer_001.mdl outside the map (1470.00, 2542.00, 5269.00)
+Error loading studio model "models/props_construction/air_compressor_001.mdl"!
+Error loading studio model "models/stormy/powerpoint_01.mdl"!
+Error loading studio model "models/stormy/da_windowframe_01a.mdl"!
+Error loading studio model "models/stormy/da_windowframe_03b.mdl"!
+Error loading studio model "models/stormy/da_windowframe_02a.mdl"!
+Error loading studio model "models/stormy/da_metalbeam_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7044 texinfos to 4685
+Reduced 446 texdatas to 391 (22558 bytes to 20505)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+5 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt
+1156 portalclusters
+3174 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 65499 visible clusters (6.62%)
+Total clusters visible: 989301
+Average clusters visible: 855
+Building PAS...
+Average clusters audible: 1152
+visdatasize:338140  compressed from 351424
+writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+14001 faces
+16 degenerate faces
+4670510 square feet [672553472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+13985 patches before subdivision
+13985 patches after subdivision
+123 direct lights
+0...1...2...3...4...5...6...7...8...9... warning - face vectors parallel to face normal. bad lighting will be produced
+100...1...2...3...4...5...6...7...8...9...10transfers 4010048, max 3169
+transfer lists:  30.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(57519, 67116, 77519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9766, 10470, 10942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2400, 2542, 2525)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(604, 600, 569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(181, 174, 160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(58, 53, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(20, 18, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0658 sec>
+0...1...2...3...4...5...6...7...8...9... warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  56/1024         2688/49152    ( 5.5%) 
+brushes               3990/8192        47880/98304    (48.7%) 
+brushsides           26903/65536      215224/524288   (41.1%) 
+planes               10268/65536      205360/1310720  (15.7%) 
+vertexes             27124/65536      325488/786432   (41.4%) 
+nodes                 2661/65536       85152/2097152  ( 4.1%) 
+texinfos              4685/12288      337320/884736   (38.1%) 
+texdata                391/2048        12512/65536    (19.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                14001/65536      784056/3670016  (21.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             9615/65536      538440/3670016  (14.7%) 
+leaves                2718/65536       86976/2097152  ( 4.1%) 
+leaffaces            19461/65536       38922/131072   (29.7%) 
+leafbrushes           6925/65536       13850/131072   (10.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges           111596/512000     446384/2048000  (21.8%) 
+edges                73146/256000     292584/1024000  (28.6%) 
+LDR worldlights        122/8192        10736/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2168/32768       21680/327680   ( 6.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         43608/65536       87216/131072   (66.5%) 
+cubemapsamples          37/1024          592/16384    ( 3.6%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    17126732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      338140/16777216 ( 2.0%) 
+entdata               [variable]      112366/393216   (28.6%) 
+LDR ambient table     2718/65536       10872/262144   ( 4.1%) 
+HDR ambient table     2718/65536       10872/262144   ( 4.1%) 
+LDR leaf ambient     11143/65536      312004/1835008  (17.0%) 
+HDR leaf ambient      2718/65536       76104/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/62058    ( 0.0%) 
+pakfile               [variable]     3247123/0        ( 0.0%) 
+physics               [variable]     1481518/4194304  (35.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 45054
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+49 seconds elapsed
+
+
+
+materialPath: C:\Users\Abe\Projects\dab\git\mp\game\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.vmf
+material "carpet/carpet_tile_01" not found.
+Material not found!: CARPET/CARPET_TILE_01
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "plaster/plainwall_02_dark" not found.
+Material not found!: PLASTER/PLAINWALL_02_DARK
+material "plaster/plainwall_02" not found.
+Material not found!: PLASTER/PLAINWALL_02
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2138 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1481504 bytes)
+Error loading studio model "models/props_doors/office_door_01.mdl"!
+Static prop models/props_construction/vent_bracer_001.mdl outside the map (1470.00, 2542.00, 5269.00)
+Error loading studio model "models/props_interiors/elevator_buttons_01.mdl"!
+Error loading studio model "models/props_interiors/ceiling_thingy_01.mdl"!
+Error loading studio model "models/props_interiors/ceiling_thingy_02.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6923 texinfos to 4639
+Reduced 425 texdatas to 374 (21395 bytes to 19500)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+5 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt
+1156 portalclusters
+3174 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 65499 visible clusters (6.62%)
+Total clusters visible: 989301
+Average clusters visible: 855
+Building PAS...
+Average clusters audible: 1152
+visdatasize:338140  compressed from 351424
+writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+13767 faces
+16 degenerate faces
+4670895 square feet [672608896.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+13751 patches before subdivision
+13751 patches after subdivision
+123 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3869876, max 3167
+transfer lists:  29.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37245, 46493, 60567)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3685, 4333, 5724)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(743, 896, 1132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(124, 136, 179)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(29, 33, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 7, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0561 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  56/1024         2688/49152    ( 5.5%) 
+brushes               3990/8192        47880/98304    (48.7%) 
+brushsides           26903/65536      215224/524288   (41.1%) 
+planes               10268/65536      205360/1310720  (15.7%) 
+vertexes             26738/65536      320856/786432   (40.8%) 
+nodes                 2661/65536       85152/2097152  ( 4.1%) 
+texinfos              4639/12288      334008/884736   (37.8%) 
+texdata                374/2048        11968/65536    (18.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                13767/65536      770952/3670016  (21.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             9615/65536      538440/3670016  (14.7%) 
+leaves                2718/65536       86976/2097152  ( 4.1%) 
+leaffaces            19161/65536       38322/131072   (29.2%) 
+leafbrushes           6925/65536       13850/131072   (10.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges           110365/512000     441460/2048000  (21.6%) 
+edges                72520/256000     290080/1024000  (28.3%) 
+LDR worldlights        122/8192        10736/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2083/32768       20830/327680   ( 6.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         42552/65536       85104/131072   (64.9%) 
+cubemapsamples          37/1024          592/16384    ( 3.6%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    13017924/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      338140/16777216 ( 2.0%) 
+entdata               [variable]      112366/393216   (28.6%) 
+LDR ambient table     2718/65536       10872/262144   ( 4.1%) 
+HDR ambient table     2718/65536       10872/262144   ( 4.1%) 
+LDR leaf ambient     11218/65536      314104/1835008  (17.1%) 
+HDR leaf ambient      2718/65536       76104/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/75782    ( 0.0%) 
+pakfile               [variable]     3239791/0        ( 0.0%) 
+physics               [variable]     1481504/4194304  (35.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 44291
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+40 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.vmf
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02_DARK, using default
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2138 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1481518 bytes)
+Error loading studio model "models/stormy/da_windowframe_02c.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_90deg.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02b.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_45deg.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02a.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_Y.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_grill.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_t.mdl"!
+Static prop models/props_construction/vent_bracer_001.mdl outside the map (1470.00, 2542.00, 5269.00)
+Error loading studio model "models/props_construction/air_compressor_001.mdl"!
+Error loading studio model "models/stormy/powerpoint_01.mdl"!
+Error loading studio model "models/stormy/da_windowframe_01a.mdl"!
+Error loading studio model "models/stormy/da_windowframe_03b.mdl"!
+Error loading studio model "models/stormy/da_windowframe_02a.mdl"!
+Error loading studio model "models/stormy/da_metalbeam_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7044 texinfos to 4685
+Reduced 446 texdatas to 391 (22558 bytes to 20505)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+5 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt
+1156 portalclusters
+3174 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 65499 visible clusters (6.62%)
+Total clusters visible: 989301
+Average clusters visible: 855
+Building PAS...
+Average clusters audible: 1152
+visdatasize:338140  compressed from 351424
+writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+14001 faces
+16 degenerate faces
+4670510 square feet [672553472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+13985 patches before subdivision
+13985 patches after subdivision
+123 direct lights
+0...1...2...3...4...5...6...7...8...9... warning - face vectors parallel to face normal. bad lighting will be produced
+100...1...2...3...4...5...6...7...8...9...10transfers 4010048, max 3169
+transfer lists:  30.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(57519, 67116, 77519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9766, 10470, 10942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2400, 2542, 2525)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(604, 600, 569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(181, 174, 160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(58, 53, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(20, 18, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0661 sec>
+0...1...2...3...4...5...6...7...8...9... warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  56/1024         2688/49152    ( 5.5%) 
+brushes               3990/8192        47880/98304    (48.7%) 
+brushsides           26903/65536      215224/524288   (41.1%) 
+planes               10268/65536      205360/1310720  (15.7%) 
+vertexes             27124/65536      325488/786432   (41.4%) 
+nodes                 2661/65536       85152/2097152  ( 4.1%) 
+texinfos              4685/12288      337320/884736   (38.1%) 
+texdata                391/2048        12512/65536    (19.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                14001/65536      784056/3670016  (21.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             9615/65536      538440/3670016  (14.7%) 
+leaves                2718/65536       86976/2097152  ( 4.1%) 
+leaffaces            19461/65536       38922/131072   (29.7%) 
+leafbrushes           6925/65536       13850/131072   (10.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges           111596/512000     446384/2048000  (21.8%) 
+edges                73146/256000     292584/1024000  (28.6%) 
+LDR worldlights        122/8192        10736/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2168/32768       21680/327680   ( 6.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         43608/65536       87216/131072   (66.5%) 
+cubemapsamples          37/1024          592/16384    ( 3.6%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    17126732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      338140/16777216 ( 2.0%) 
+entdata               [variable]      112366/393216   (28.6%) 
+LDR ambient table     2718/65536       10872/262144   ( 4.1%) 
+HDR ambient table     2718/65536       10872/262144   ( 4.1%) 
+LDR leaf ambient     11143/65536      312004/1835008  (17.0%) 
+HDR leaf ambient      2718/65536       76104/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/62058    ( 0.0%) 
+pakfile               [variable]     3247123/0        ( 0.0%) 
+physics               [variable]     1481518/4194304  (35.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 45054
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+47 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Double Action\dab\materials
+Loading C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.vmf
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02_DARK, using default
+Can't find surfaceprop stone for material PLASTER/PLAINWALL_02, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 836 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/island*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (1375670 bytes)
+Error loading studio model "models/stormy/da_windowframe_02c.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_90deg.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02b.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_45deg.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02a.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_Y.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_grill.mdl"!
+Error loading studio model "models/props_construction/vent_ducting_02_t.mdl"!
+Static prop models/props_construction/vent_bracer_001.mdl outside the map (1470.00, 2542.00, 5269.00)
+Static prop models/props_construction/vent_bracer_001.mdl outside the map (1608.02, 2038.00, 5270.00)
+Error loading studio model "models/props_construction/air_compressor_001.mdl"!
+Error loading studio model "models/stormy/powerpoint_01.mdl"!
+Error loading studio model "models/stormy/da_windowframe_01a.mdl"!
+Error loading studio model "models/stormy/da_metalbeam_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6029 texinfos to 3892
+Reduced 404 texdatas to 345 (20380 bytes to 18074)
+Writing C:\Users\Abe\Projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+reading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.prt
+1041 portalclusters
+2931 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 47131 visible clusters (5.69%)
+Total clusters visible: 827984
+Average clusters visible: 795
+Building PAS...
+Average clusters audible: 1039
+visdatasize:275890  compressed from 283152
+writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+12219 faces
+6 degenerate faces
+4876593 square feet [702229440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12213 patches before subdivision
+12213 patches after subdivision
+122 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2359408, max 3010
+transfer lists:  18.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(52239, 61538, 71636)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8576, 9201, 9706)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2179, 2308, 2305)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(552, 545, 516)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(168, 161, 146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(55, 50, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(19, 17, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0687 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  48/1024         2304/49152    ( 4.7%) 
+brushes               3724/8192        44688/98304    (45.5%) 
+brushsides           24065/65536      192520/524288   (36.7%) 
+planes                6752/65536      135040/1310720  (10.3%) 
+vertexes             24310/65536      291720/786432   (37.1%) 
+nodes                 2388/65536       76416/2097152  ( 3.6%) 
+texinfos              3892/12288      280224/884736   (31.7%) 
+texdata                345/2048        11040/65536    (16.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                12219/65536      684264/3670016  (18.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             8372/65536      468832/3670016  (12.8%) 
+leaves                2437/65536       77984/2097152  ( 3.7%) 
+leaffaces            16534/65536       33068/131072   (25.2%) 
+leafbrushes           6286/65536       12572/131072   ( 9.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            97413/512000     389652/2048000  (19.0%) 
+edges                65051/256000     260204/1024000  (25.4%) 
+LDR worldlights        121/8192        10648/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1930/32768       19300/327680   ( 5.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         38643/65536       77286/131072   (59.0%) 
+cubemapsamples          37/1024          592/16384    ( 3.6%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    16819460/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      275890/16777216 ( 1.6%) 
+entdata               [variable]      108449/393216   (27.6%) 
+LDR ambient table     2437/65536        9748/262144   ( 3.7%) 
+HDR ambient table     2437/65536        9748/262144   ( 3.7%) 
+LDR leaf ambient     10955/65536      306740/1835008  (16.7%) 
+HDR leaf ambient      2437/65536       68236/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44100    ( 0.0%) 
+pakfile               [variable]     3234141/0        ( 0.0%) 
+physics               [variable]     1375670/4194304  (32.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 39497
+Writing c:\users\abe\projects\dab\dabmaps\maps\da_crosstalk\da_crosstalk.bsp
+45 seconds elapsed
