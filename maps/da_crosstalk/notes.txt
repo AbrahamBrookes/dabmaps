@@ -1,0 +1,15 @@
+ - IBCs
+ - rolls of corrugated pipe
+ - rolls of poly pipe
+ - offcuts and flopped bits of poly and corrie
+ - portaloos (epifire)
+ - fully enclosed metal cladding below the construction site
+ - disco room in the office block
+ - arcade area in the office block
+	- poweroints, wall signs, ventilation
+ - windows wouldn't be done yet?
+
+ 
+ our colours are yellow and black
+	- nodraw texture lightmappedgeneric
+ 
